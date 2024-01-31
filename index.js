@@ -33,3 +33,4 @@
 // tu vas bien ?`)
 
 console.log('My name is : as a', typeof("Caleb Kiangebeni"));
+console.log('My name is : Caleb Kiangebeni');
