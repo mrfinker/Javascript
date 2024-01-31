@@ -59,3 +59,5 @@ Multi-ligne */
 // console.log(`Total cost : $${totalCost}`);
 
 // 6. Booelean and if statement
+console.log(3>5);
+console.log(3<5);
