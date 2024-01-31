@@ -24,3 +24,10 @@ console.log("hello"+3)
 console.log("$" + 500 + 300)
 console.log("$500" + 300)
 console.log("$" + (500 + 300))
+console.log("Bonjour")
+console.log('Bonjour')
+console.log('Je t\'emmerde')
+let Hey = "Bonjour"
+console.log(`${Hey}`)
+console.log(`Bonjour
+tu vas bien ?`)
