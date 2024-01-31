@@ -11,4 +11,4 @@ console.log("Je suis un nombre");
 let cel = 9
 let far = 10
 console.log("La valeur de "+ cel +" Celsius en Faraneiht est : "(far - 32) * 5 / 9)
-console.log("La valeur de "+ far +" Faraneiht en F est : "(celsius * 9 / 5) + 32)
+console.log("La valeur de "+ far +" Faraneiht en Celsius est : "(celsius * 9 / 5) + 32)
