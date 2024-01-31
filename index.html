@@ -9,8 +9,18 @@
   <body>
    
     <button onclick="console.log(`la quantiter est : ${qt}`)">Voir la quantiter</button>
-    <button onclick="console.log(`la quantiter est maintenant : ${qt + 1}`)">Ajouter dans le panier</button>
-    <button onclick="console.log(`la quantiter est maintenant : ${qt = 0}`)">Reset</button>
+    <button 
+    onclick="
+    qt = qt + 1;
+    console.log(`la quantiter est maintenant : ${qt}`)">Ajouter +1 dans le panier</button>
+    <button 
+    onclick="
+    qt = qt + 2;
+    console.log(`la quantiter est maintenant : ${qt}`)">Ajouter +2 dans le panier</button>
+    <button 
+    onclick="
+    qt = 0;
+    console.log(`la quantiter est maintenant : ${qt}`)">Reset</button>
 
   </body>
   <script src="index.js"></script>
