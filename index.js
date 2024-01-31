@@ -67,11 +67,15 @@ Multi-ligne */
 // console.log(typeof('true'));
 // console.log(5 == '5');
 // console.log(5 === '5');
-let age = 20;
-if(age > 18){
-  console.log("Je suis assez grand");
-} else if (age < 17) {
-  console.log('Je suis encore a fleur d\'age');
-} else {
-  console.log('je ne sais pas');
-}
+// let age = 20;
+// if(age > 18){
+//   console.log("Je suis assez grand");
+// } else if (age < 17) {
+//   console.log('Je suis encore a fleur d\'age');
+// } else {
+//   console.log('je ne sais pas');
+// }
+
+win = 0;
+losse = 0;
+tie = 0;
