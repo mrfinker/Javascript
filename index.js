@@ -61,3 +61,5 @@ Multi-ligne */
 // 6. Booelean and if statement
 console.log(3>5);
 console.log(3<5);
+console.log(typeof(true));
+console.log(typeof('true'));
