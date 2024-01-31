@@ -38,3 +38,5 @@ console.log('My name is :' + ' Caleb Kiangebeni');
 console.log('Total cost : $' + ((1*5)+(1*3)) )
 alert('Total cost : $' + ((1*5)+(1*3)) )
 console.log(`Total cost : $${(1*5)+(1*3)}`)
+console.log(`Total cost : $${Math.round(1*5.5)+(1*3)}`)
+console.log(`Total cost : $${Math.round(1*5.5)+(1*3) * 0.1}`)
