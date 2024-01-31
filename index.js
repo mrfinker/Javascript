@@ -42,3 +42,6 @@
 // console.log(`Total cost : $${Math.round(1*5.5)+(1*3) * 0.1}`)
 
 // 4. HTML, CSS and Js
+// Ceci est un commentaire, en une seule ligne
+/* Ceci est un commentaire
+Multi-ligne */
