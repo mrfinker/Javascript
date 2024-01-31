@@ -45,3 +45,5 @@
 // Ceci est un commentaire, en une seule ligne
 /* Ceci est un commentaire
 Multi-ligne */
+
+// 5.Variables
