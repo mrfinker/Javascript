@@ -48,6 +48,7 @@ Multi-ligne */
 
 // 5.Variables
 let qt = 0;
+let calculation = "";
 let myName = "Caleb Kiangebeni";
 console.log(`My name is : ${myName}`);
 let cost = ((1*5)+(2*3)+(1*9));
