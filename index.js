@@ -48,3 +48,4 @@ Multi-ligne */
 
 // 5.Variables
 let qt = 0;
+let add = qt + 1;
