@@ -94,11 +94,28 @@
 
 objBasket = {
   nameProduct: 'Basketball',
-  price: 2095
+  price: 2095,
+  ['delivery-time']: '3 days',
 }
+
+objShirt = {
+  nameProduct: 'Shirt',
+  price: 5000
+}
+
+function comparePrice(product1, product2){
+  let result = '';
+  if(product1.price < product2.price){
+    result = (product1.nameProduct + ' est moins chers' + ' car il vaut ' + `${product1.price}`);
+  } else {
+    result = (product2.nameProduct + ' est moins chers' + ' car il vaut ' + `${product2.price}`);
+  }
+  return console.log(result);
+}
+
+comparePrice(objBasket, objShirt)
 
 objBasket.price += 500
 
 console.log(objBasket);
-objbasket['delivery-time'] = '3 days'
-console.log(objBasket);
+console.log(objBasket['delivery-time']);
