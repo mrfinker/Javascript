@@ -142,7 +142,7 @@ if(randomNumber < 0.5){
 
 console.log(result);
 
-let guess = 'Heads' || 'Tails';
+let guess = 'Heads';
 
 if(guess === result){
   console.log('J\'ai gagner');
