@@ -67,3 +67,12 @@ console.log(obj1 === obj2);
 obj1.nameFisrt = 'Kiangebeni';
 console.log(obj1);
 console.log(obj2);
+
+const obj3 = {
+  nameFisrt: 'Kiangebeni',
+  poids: 180
+}
+
+console.log(obj1);
+console.log(obj3);
+console.log(obj1 === obj3);
