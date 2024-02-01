@@ -123,6 +123,7 @@ if (hour >= 0 && hour <= 12){
 }
 
 let age = 5;
+const isHoliday = true;
 
 if((age >= 6 && age <=64) || (age >= 65)){
   console.log('Discount');
