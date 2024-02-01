@@ -149,3 +149,5 @@ if(guess === result){
 } else {
   console.log('J\'ai perdus');
 }
+
+let resultat = guess === result ? console.log('J\'ai gagner') : console.log('J\'ai perdus');
