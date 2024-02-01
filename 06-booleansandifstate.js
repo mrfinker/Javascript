@@ -100,14 +100,19 @@ function playerGame(playerMove){
 
   updateScore();
 
-  
+  document.querySelector('.result')
+  .innerHTML = result;
+
+  document.querySelector('.choices')
+  .innerHTML = 
+  `Vous : ${playerMove} - Computer : ${computerMove}`
 
 }
 
-function choicePlayers(){
-  document.querySelector('choices')
+function updateScore(){
+  document.querySelector('.score')
   .innerHTML = 
-  `vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}`
+  `Gagner : ${score.win}, Perdus : ${score.losse}, nul : ${score.tie}`
 }
 
 function pickandroidMove(){
