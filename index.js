@@ -31,13 +31,13 @@
 //     }
 // }
 
-function calculateCost(cost){
+function calculateCost(){
   let cost = document.querySelector('.cost');
-  
-  if(cost < 40){
-    cost += 10;
+  let value = cost.value;
+  if(value < 40){
+    value += 10;
     } else{
-      cost
+      value
     }
-  return document.querySelector('.result').innerHTML = cost;
+  return document.querySelector('.result').innerHTML = value;
 }
