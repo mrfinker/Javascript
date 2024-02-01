@@ -41,8 +41,8 @@
 
     <p class="choice"></p> -->
 
-    <input placeholder="votre nom" class="name">
-    <button onclick="document.querySelector('.value').innerHTML = `Votre nom est : ${valueInput}`;" class="submit">submit</button>
+    <input placeholder="votre nom" class="name" onkeydown="handlePrintName(event)">
+    <button onclick="printName()" class="submit">submit</button>
     <p class="value"></p>
 
   </body>

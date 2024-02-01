@@ -75,3 +75,12 @@
 
 let nameInput = document.querySelector('.name');
 let valueInput = nameInput.value;
+function printName(){
+  document.querySelector('.value').innerHTML = `Votre nom est : ${valueInput}`; 
+}
+
+function handlePrintName(event){
+  if(event.key === 'Enter'){
+    printName();
+  }
+}
