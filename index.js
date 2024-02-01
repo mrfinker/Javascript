@@ -31,3 +31,12 @@
 //     }
 // }
 
+let cost = document.querySelector('.cost');
+
+if(cost < 40){
+  cost += 10;
+} else{
+  cost
+}
+
+document.querySelector('.result').innerHTML = '';
