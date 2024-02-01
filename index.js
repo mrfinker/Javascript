@@ -230,3 +230,16 @@ function converToCelsius(Farhanheit){
   return console.log(`${result} Degré Farhanheit`);
 }
 converToCelsius(86);
+
+function convertTemperature(degree, unit){
+  if(unit === 'C'){
+    converToFahranheit(degree)
+    return `${dregree}F`;
+  } else if(unit === 'F'){
+    converToCelsius(degree)
+    return `${dregree}C`;
+  }
+}
+
+convertTemperature(30, 'C')
+convertTemperature(86, 'F')
