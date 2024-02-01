@@ -92,19 +92,16 @@
 // console.log(obj4);
 // obj4.method();
 
-objBasket = {
-  nameProduct: 'Basketball',
-  price: 2095,
-  ['delivery-time']: '3 days',
-}
+// objBasket = {
+//   nameProduct: 'Basketball',
+//   price: 2095,
+//   ['delivery-time']: '3 days',
+// }
 
-objShirt = {
-  nameProduct: 'Shirt',
-  price: 5000
-}
-
-objBasket = objShirt;
-console.log(objBasket);
+// objShirt = {
+//   nameProduct: 'Shirt',
+//   price: 5000
+// }
 
 // function comparePrice(product1, product2){
 //   let result = '';
@@ -123,15 +120,21 @@ console.log(objBasket);
 // console.log(objBasket);
 // console.log(objBasket['delivery-time']);
 
-function isSameProduct(product1, product2){
-  let result;
-  if(product1 === product2){
-    result = true;
-  } else {
-    result = false;
-  }
+// objBasket = objShirt;
+// console.log(objBasket);
 
-  return console.log(result);
-}
+// function isSameProduct(product1, product2){
+//   let result;
+//   if(product1 === product2){
+//     result = true;
+//   } else {
+//     result = false;
+//   }
 
-isSameProduct(objBasket, objShirt);
+//   return console.log(result);
+// }
+
+// isSameProduct(objBasket, objShirt);
+
+let message = 'Good Morning!'.toUpperCase;
+console.log(message);
