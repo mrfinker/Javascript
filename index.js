@@ -69,5 +69,6 @@ function displayChoices(){
     result = `Vous avez choisi : ${resultTails}`
   }
 
-  return console.log(result);
+  let value = document.querySelector('.choice').innerHTML = `${result}`;
+  return value;
 }
