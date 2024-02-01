@@ -100,9 +100,8 @@ function playerGame(playerMove){
 
   updateScore();
 
-  document.querySelector('.score')
-  .innerHTML = 
-  `Gagner : ${score.win}, Perdus : ${score.losse}, nul : ${score.tie}`
+  document.querySelector('.choices')
+  .innerHTML = result;
 
 }
 
