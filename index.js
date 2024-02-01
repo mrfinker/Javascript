@@ -74,14 +74,20 @@
 // }
 
 
-function printName(){
-  let nameInput = document.querySelector('.name');
-  let valueInput = nameInput.value;
-  document.querySelector('.value').innerHTML = `Votre nom est : ${valueInput}`; 
-}
+// function printName(){
+//   let nameInput = document.querySelector('.name');
+//   let valueInput = nameInput.value;
+//   document.querySelector('.value').innerHTML = `Votre nom est : ${valueInput}`; 
+// }
 
-function handlePrintName(event){
-  if(event.key === 'Enter'){
-    printName();
-  }
+// function handlePrintName(event){
+//   if(event.key === 'Enter'){
+//     printName();
+//   }
+// }
+
+function screenName(){
+  let name = document.querySelector('.autoScreenName');
+  let ValueName = name.value;
+  return document.querySelector('.screenName').innerHTML = `${ValueName}`
 }
