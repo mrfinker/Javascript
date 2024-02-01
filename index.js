@@ -21,10 +21,25 @@ console.log(product);
 const product2 = {
   name: 'Shirt',
   price: 15,
-  ['delivery']: '1 day'
-}
+  ['delivery']: '1 day',
+  rate: {
+    stars: 4.5,
+    count: 185
+  },
+  fun: function function1(){
+    console.log('C\'est une fonction dans un object');
+  }
+};
 
 console.log(product2);
 console.log(product2['name']);
-console.log(product2.delivery-time);
 console.log(product2['delivery']);
+// same things
+console.log(product2.rate.count);
+console.log(product2['rate'].count);
+console.log(product2['rate']['count']);
+console.log(product2.rate['count']);
+
+console.log(product2.fun());
+
+console.log(product2.delivery-time);
