@@ -42,7 +42,10 @@ console.log(product2.rate['count']);
 
 console.log(product2.fun());
 
-const reusableProduct2 = JSON.stringify(product2);
-console.log(reusableProduct2);
+const reusableJSONProduct2 = JSON.stringify(product2);
+console.log(reusableJSONProduct2);
+
+const reusableObjectProduct2 = JSON.parse(reusableJSONProduct2);
+console.log(reusableObjectProduct2);
 
 // console.log(product2.delivery-time);
