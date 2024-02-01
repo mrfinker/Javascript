@@ -55,3 +55,10 @@
 //   let result = btnChallenge2.innerHTML = 'test ok!';
 //   return result;
 // }
+
+
+const resultHeads = document.querySelector('.heads').innerHTML;
+const resultTails = document.querySelector('.tails').innerHTML;
+function displayChoices(){
+
+}
