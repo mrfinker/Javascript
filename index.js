@@ -17,3 +17,4 @@
 
 document.querySelector("button");
 // console.log(document.querySelector("button"));
+document.querySelector("button").innerHTML = "changed!!";
