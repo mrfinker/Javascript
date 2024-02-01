@@ -104,27 +104,27 @@ Multi-ligne */
 // message = undefined || 'USD'
 // console.log(message);
 
-win = 0;
-losse = 0;
-tie = 0;
-const randomNumber = Math.random();
+// win = 0;
+// losse = 0;
+// tie = 0;
+// const randomNumber = Math.random();
 
-let computerNumber = '';
+// let computerNumber = '';
 
-let result = '';
+// let result = '';
 
-function pickandroidMove(){
+// function pickandroidMove(){
 
-  if (randomNumber >= 0 && randomNumber < 1/3){
-    computerMove = ('Pierre');
-  } else if(randomNumber >= 1/3 && randomNumber < 2/3){
-    computerMove = ('Feuille');
-  } else if(randomNumber >= 2/3 && randomNumber < 1){
-    computerMove = ('Ciseau');
-  }
+//   if (randomNumber >= 0 && randomNumber < 1/3){
+//     computerMove = ('Pierre');
+//   } else if(randomNumber >= 1/3 && randomNumber < 2/3){
+//     computerMove = ('Feuille');
+//   } else if(randomNumber >= 2/3 && randomNumber < 1){
+//     computerMove = ('Ciseau');
+//   }
 
-  return console.log(computerMove);
-}
+//   return console.log(computerMove);
+// }
 
 // let hour = 18;
 // let name = 'Caleb Kiangebeni'
