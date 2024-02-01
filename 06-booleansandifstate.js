@@ -91,7 +91,7 @@ function playerGame(playerMove){
     score.tie += 1;
   }
   alert(`vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}
-  Gagner : ${score.win}, Perdus : ${score.losse}, nul : ${score.tie}`);
+Gagner : ${score.win}, Perdus : ${score.losse}, nul : ${score.tie}`);
 }
 
 function pickandroidMove(){
@@ -105,7 +105,7 @@ function pickandroidMove(){
     computerMove = ('Ciseau');
   }
 
-  return console.log(computerMove);
+  return computerMove;
 }
 
 let hour = 18;
