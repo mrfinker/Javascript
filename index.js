@@ -50,44 +50,44 @@
 
 // console.log(product2.delivery-time);
 
-const obj1 = {
-  nameFisrt: 'caleb',
-  poids: 180
-}
+// const obj1 = {
+//   nameFisrt: 'caleb',
+//   poids: 180
+// }
 
-const obj2 = obj1;
-console.log(obj2);
-console.log(obj1 === obj2);
+// const obj2 = obj1;
+// console.log(obj2);
+// console.log(obj1 === obj2);
 
-obj1.nameFisrt = 'Kiangebeni';
-console.log(obj1);
-console.log(obj2);
+// obj1.nameFisrt = 'Kiangebeni';
+// console.log(obj1);
+// console.log(obj2);
 
-const obj3 = {
-  nameFisrt: 'Kiangebeni',
-  poids: 180
-}
+// const obj3 = {
+//   nameFisrt: 'Kiangebeni',
+//   poids: 180
+// }
 
-console.log(obj1);
-console.log(obj3);
-console.log(obj1 === obj3);
+// console.log(obj1);
+// console.log(obj3);
+// console.log(obj1 === obj3);
 
-const { nameFisrt, poids } = obj1;
-console.log(nameFisrt);
-console.log(poids);
+// const { nameFisrt, poids } = obj1;
+// console.log(nameFisrt);
+// console.log(poids);
 
-const obj4 = {
-  // nameFisrt: nameFisrt,
-  nameFisrt,
-  // poids: poids
-  poids,
-  // method: function function1(){
-  //   console.log('Je suis une function');
-  // }
-  method(){
-    console.log('je suis une fonction');
-  }
-}
+// const obj4 = {
+//   nameFisrt: nameFisrt,
+//   nameFisrt,
+//   poids: poids
+//   poids,
+//   method: function function1(){
+//     console.log('Je suis une function');
+//   }
+//   method(){
+//     console.log('je suis une fonction');
+//   }
+// }
 
-console.log(obj4);
-obj4.method();
+// console.log(obj4);
+// obj4.method();
