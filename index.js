@@ -16,4 +16,4 @@
 // document.body.innerHTML = "<button>Bonjour</button>";
 
 document.querySelector("button");
-console.log(document.querySelector("button"));
+// console.log(document.querySelector("button"));
