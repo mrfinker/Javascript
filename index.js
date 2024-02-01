@@ -76,6 +76,17 @@ Multi-ligne */
 //   console.log('je ne sais pas');
 // }
 
+let resultat;
+console.log(resultat);
+
+resultat = true ? 'yes' : 'No';
+console.log(resultat);
+
+resultat = false ? 'yes' : 'No';
+console.log(resultat);
+
+let 
+
 win = 0;
 losse = 0;
 tie = 0;
