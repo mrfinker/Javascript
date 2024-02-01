@@ -73,8 +73,7 @@
 //   return value;
 // }
 
-let nameInput = document.querySelector('.name').innerHTML;
-console.log(nameInput);
+let nameInput = document.querySelector('.name');
 let valueInput = nameInput.value;
 const btn = document.querySelector('.submit');
 function printName(){
