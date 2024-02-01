@@ -57,16 +57,15 @@
 // }
 
 
+
 const resultHeads = document.querySelector('.heads').innerHTML;
 const resultTails = document.querySelector('.tails').innerHTML;
-// console.log(resultHeads);
-// console.log(resultTails);
-function displayChoices(){
+function displayChoices(par){
 
   let result;
-  if(resultHeads === 'heads'){
+  if(resultHeads === par){
     result = `Vous avez choisi : ${resultHeads}`;
-  } else if(resultTails === 'tails') {
+  } else if(resultTails === par) {
     result = `Vous avez choisi : ${resultTails}`;
   }
 
