@@ -80,3 +80,4 @@ win = 0;
 losse = 0;
 tie = 0;
 const randomNumber = Math.random();
+const computerNumber = '';
