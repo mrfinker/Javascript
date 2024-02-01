@@ -46,7 +46,7 @@ console.log(message);
 
 let score = JSON.parse(localStorage.getItem('score'));
 
-if(score === null){
+if(!score ||score === null){
   score = {
     win: 0,
     tie: 0,
