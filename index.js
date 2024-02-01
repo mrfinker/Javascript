@@ -107,7 +107,6 @@ Multi-ligne */
 win = 0;
 losse = 0;
 tie = 0;
-const randomNumber = Math.random();
 
 let computerNumber = '';
 let result = '';
@@ -153,6 +152,7 @@ function playerGame(playerMove){
 }
 
 function pickandroidMove(){
+  const randomNumber = Math.random();
 
   if (randomNumber >= 0 && randomNumber < 1/3){
     computerMove = ('Pierre');
