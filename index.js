@@ -240,7 +240,7 @@ function convertTemperature(degree, unit){
     converToCelsius(degree)
     result = `${degree}C`;
   }
-  return result;
+  return console.log(result);
 }
 
 convertTemperature(30, 'C')
