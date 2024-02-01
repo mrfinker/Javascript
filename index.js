@@ -221,13 +221,13 @@ Multi-ligne */
 
 function converToFahranheit(celsius){
   let result = (celsius * 9 / 5) + 32
-  // return console.log(`${result} Degré Celsius`);
+  return console.log(`${result} Degré Celsius`);
 }
 // converToFahranheit(30);
 
 function converToCelsius(Farhanheit){
   let result = (Farhanheit - 32) * 5 / 9
-  // return console.log(`${result} Degré Farhanheit`);
+  return console.log(`${result} Degré Farhanheit`);
 }
 // converToCelsius(86);
 
@@ -240,7 +240,7 @@ function convertTemperature(degree, unit){
     converToCelsius(degree)
     result = `${degree}C`;
   }
-  return console.log(result);
+  return result;
 }
 
 convertTemperature(30, 'C')
