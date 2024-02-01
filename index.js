@@ -18,3 +18,10 @@ console.log(product);
 delete product.newPropriete;
 console.log(product);
 
+const product2 = {
+  name: 'Shirt',
+  price: 15
+}
+
+console.log(product2);
+console.log(product2['name']);
