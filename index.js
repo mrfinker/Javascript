@@ -122,10 +122,10 @@ if (hour >= 0 && hour <= 12){
   console.log(`Bonne nuit, ${name}!`);
 }
 
-let age = 5;
+let age = 50;
 const isHoliday = true;
 
-if((age >= 6 && age <=64) || (age >= 65)){
+if(((age >= 6 && age <=64) || (age >= 65)) && !isHoliday){
   console.log('Discount');
 } else {
   console.log('Not discount');
