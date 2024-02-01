@@ -54,6 +54,8 @@ if(!score ||score === null){
   }
 }
 
+updateScore();
+
 let computerNumber = '';
 let result = '';
 
