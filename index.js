@@ -20,8 +20,11 @@ console.log(product);
 
 const product2 = {
   name: 'Shirt',
-  price: 15
+  price: 15,
+  ['delivery']: '1 day'
 }
 
 console.log(product2);
 console.log(product2['name']);
+console.log(product2.delivery-time);
+console.log(product2['delivery']);
