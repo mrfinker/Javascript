@@ -18,9 +18,12 @@ console.log(product);
 delete product.newPropriete;
 console.log(product);
 
-win = 0;
-losse = 0;
-tie = 0;
+const score = {
+  win: 0,
+  losse: 0,
+  tie: 0,
+}
+
 
 let computerNumber = '';
 let result = '';
@@ -30,36 +33,27 @@ function playerGame(playerMove){
   if(playerMove === 'Pierre'){
     if(computerMove === 'Pierre'){
       result = ('Personne n\'a gagner');
-      tie += 1;
     } else if (computerMove === 'Feuille'){
       result = ('L\'IA a gagner');
-      losse += 1;
     } else if(computerMove === 'Ciseau') {
       result = ('Tu as gagner');
-      win += 1;
     }
 
   } else if(playerMove === 'Feuille'){
     if(computerMove === 'Pierre'){
       result = ('Tu as gagner');
-      win += 1;
     } else if (computerMove === 'Feuille'){
       result = ('Match nul');
-      tie += 1;
     } else if(computerMove === 'Ciseau') {
       result = ('Tu as perdus');
-      losse += 1;
     } 
   } else if(playerMove === 'Ciseau'){
     if(computerMove === 'Pierre'){
       result = ('Tu as perdus');
-      losse += 1;
     } else if (computerMove === 'Feuille'){
       result = ('Tu as gagner');
-      win += 1;
     } else if(computerMove === 'Ciseau') {
       result = ('Match nul');
-      tie += 1;
     }
   }
   alert(`vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}`);
