@@ -82,7 +82,7 @@ function playerGame(playerMove){
       result = ('Match nul');
     }
   }
-  
+
   if(result === "Tu as gagner"){
     score.win += 1;
   } else if(result === 'Tu as perdus'){
@@ -90,7 +90,8 @@ function playerGame(playerMove){
   } else if(result === 'Match nul'){
     score.tie += 1;
   }
-  alert(`vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}`);
+  alert(`vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}
+  Gagner : ${score.win}, Perdus : ${score.losse}, nul : ${score.tie}`);
 }
 
 function pickandroidMove(){
