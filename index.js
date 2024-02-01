@@ -235,12 +235,9 @@ function convertTemperature(degree, unit){
   let result = '';
   if(unit === 'C'){
     converToFahranheit(degree)
-    result = `${degree}F`;
   } else if(unit === 'F'){
     converToCelsius(degree)
-    result = `${degree}C`;
   }
-  return result;
 }
 
 convertTemperature(30, 'C')
