@@ -59,15 +59,15 @@
 
 const resultHeads = document.querySelector('.heads').innerHTML;
 const resultTails = document.querySelector('.tails').innerHTML;
-console.log(resultHeads);
-console.log(resultTails);
+// console.log(resultHeads);
+// console.log(resultTails);
 function displayChoices(){
-  
+
   let result;
   if(resultHeads === 'heads'){
-    result = `Vous avez choisi : ${resultHeads}`
+    result = `Vous avez choisi : ${resultHeads}`;
   } else if(resultTails === 'tails') {
-    result = `Vous avez choisi : ${resultTails}`
+    result = `Vous avez choisi : ${resultTails}`;
   }
 
   let value = document.querySelector('.choice').innerHTML = `${result}`;
