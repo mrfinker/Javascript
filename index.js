@@ -31,19 +31,27 @@
 //     }
 // }
 
-function calculateCost(){
-  let cost = document.querySelector('.cost');
-  let value = Number(cost.value);
+// function calculateCost(){
+//   let cost = document.querySelector('.cost');
+//   let value = Number(cost.value);
   
-  if(value < 40){
-    value += 10;
-  }
+//   if(value < 40){
+//     value += 10;
+//   }
   
-  document.querySelector('.result').innerHTML = `$${value}`;
-}
+//   document.querySelector('.result').innerHTML = `$${value}`;
+// }
 
-function handleCostEnterKey(event){
-  if(event.key === 'Enter'){
-    calculateCost();
-  }
+// function handleCostEnterKey(event){
+//   if(event.key === 'Enter'){
+//     calculateCost();
+//   }
+// }
+
+const btnChallenge = document.querySelector('.challenge').innerHTML;
+console.log(btnChallenge);
+const btnChallenge2 = document.querySelector('.challenge2')
+function changeValueBtn(){
+  let result = btnChallenge2.innerHTML = 'test ok!';
+  return result;
 }
