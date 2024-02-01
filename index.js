@@ -76,25 +76,38 @@ Multi-ligne */
 //   console.log('je ne sais pas');
 // }
 
-let resultat;
-console.log(resultat);
+// let resultat;
+// console.log(resultat);
 
-resultat = true ? 'yes' : 'No';
-console.log(resultat);
+// resultat = true ? 'yes' : 'No';
+// console.log(resultat);
 
-resultat = false ? 'yes' : 'No';
-console.log(resultat);
+// resultat = false ? 'yes' : 'No';
+// console.log(resultat);
 
-let message;
-message = false && 'Bonjour a tous'
-console.log(message);
+// let message;
+// message = false && 'Bonjour a tous'
+// console.log(message);
 
-message = true && 'Bonjour a tous'
-console.log(message);
+// message = true && 'Bonjour a tous'
+// console.log(message);
 
-win = 0;
-losse = 0;
-tie = 0;
-const randomNumber = Math.random();
-let computerNumber = '';
-let result = '';
+// message = true || 'Bonjour a tous'
+// console.log(message);
+
+// message = false || 'Bonjour a tous'
+// console.log(message);
+
+// message = 'EUR' || 'USD'
+// console.log(message);
+
+// message = undefined || 'USD'
+// console.log(message);
+
+// win = 0;
+// losse = 0;
+// tie = 0;
+// const randomNumber = Math.random();
+// let computerNumber = '';
+// let result = '';
+
