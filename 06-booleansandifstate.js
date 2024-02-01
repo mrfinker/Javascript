@@ -44,17 +44,10 @@ console.log(message);
 message = undefined || 'USD'
 console.log(message);
 
-const score = {
-  win: 0,
-  losse: 0,
-  tie: 0,
-}
-
+const score = JSON.parse(localStorage.getItem('score'));
 
 let computerNumber = '';
 let result = '';
-
-localStorage.getItem(JSON.parse('score'))
 
 function playerGame(playerMove){
   
