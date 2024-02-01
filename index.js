@@ -34,9 +34,12 @@
 function calculateCost(){
   let cost = document.querySelector('.cost');
   let value = cost.value;
-  console.log(value);
+  
+  // console.log(value);
+  
   if(value < 40){
     value += 10;
   }
-  return document.querySelector('.result').innerHTML = `$${value}`;
+  
+  document.querySelector('.result').innerHTML = `$${value}`;
 }
