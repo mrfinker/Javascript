@@ -48,10 +48,10 @@
 //   }
 // }
 
-const btnChallenge = document.querySelector('.challenge').innerHTML;
-console.log(btnChallenge);
-const btnChallenge2 = document.querySelector('.challenge2')
-function changeValueBtn(){
-  let result = btnChallenge2.innerHTML = 'test ok!';
-  return result;
-}
+// const btnChallenge = document.querySelector('.challenge').innerHTML;
+// console.log(btnChallenge);
+// const btnChallenge2 = document.querySelector('.challenge2')
+// function changeValueBtn(){
+//   let result = btnChallenge2.innerHTML = 'test ok!';
+//   return result;
+// }
