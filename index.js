@@ -111,22 +111,41 @@ Multi-ligne */
 // let computerNumber = '';
 // let result = '';
 
-let hour = 18;
-let name = 'Caleb Kiangebeni'
+// let hour = 18;
+// let name = 'Caleb Kiangebeni'
 
-if (hour >= 0 && hour <= 12){
-  console.log(`Bonjour, ${name} !`);
-} else if(hour >= 13 && hour <= 17){
-  console.log(`Bon apres-midi, ${name}!`);
+// if (hour >= 0 && hour <= 12){
+//   console.log(`Bonjour, ${name} !`);
+// } else if(hour >= 13 && hour <= 17){
+//   console.log(`Bon apres-midi, ${name}!`);
+// } else {
+//   console.log(`Bonne nuit, ${name}!`);
+// }
+
+// let age = 50;
+// const isHoliday = true;
+
+// if(((age >= 6 && age <=64) || (age >= 65)) && !isHoliday){
+//   console.log('Discount');
+// } else {
+//   console.log('Not discount');
+// }
+
+let randomNumber = Math.random();
+let result = '';
+
+if(randomNumber < 0.5){
+  result = ('Heads');
 } else {
-  console.log(`Bonne nuit, ${name}!`);
+  result = ('Tails');
 }
 
-let age = 50;
-const isHoliday = true;
+console.log(result);
 
-if(((age >= 6 && age <=64) || (age >= 65)) && !isHoliday){
-  console.log('Discount');
+let guess = 'Heads' || 'Tails';
+
+if(guess === result){
+  console.log('J\'ai gagner');
 } else {
-  console.log('Not discount');
+  console.log('J\'ai perdus');
 }
