@@ -100,8 +100,7 @@ function playerGame(playerMove){
 
   updateScore();
 
-  document.querySelector('.choices')
-  .innerHTML = result;
+  
 
 }
 
