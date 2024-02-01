@@ -7,4 +7,6 @@
 // const titlePage = document.title;
 // console.log(titlePage);
 
-console.log(document.body);
+// console.log(document.body);
+// console.log(typeof document.body);
+
