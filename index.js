@@ -77,8 +77,14 @@ console.log(nameFisrt);
 console.log(poids);
 
 const obj4 = {
-  nameFisrt: nameFisrt,
-  poids: poids
+  // nameFisrt: nameFisrt,
+  nameFisrt,
+  // poids: poids
+  poids,
+  method: function function1(){
+    console.log('Je suis une function');
+  }
 }
 
 console.log(obj4);
+obj
