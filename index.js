@@ -13,4 +13,7 @@
 // console.log(document.body.innerHTML);
 // document.body.innerHTML=('changed')
 
-document.body.innerHTML = "<button>Bonjour</button>";
+// document.body.innerHTML = "<button>Bonjour</button>";
+
+document.querySelector("button");
+console.log(document.querySelector("button"));
