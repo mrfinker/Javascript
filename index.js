@@ -61,7 +61,7 @@ const resultHeads = document.querySelector('.heads').innerHTML;
 const resultTails = document.querySelector('.tails').innerHTML;
 console.log(resultHeads);
 console.log(resultTails);
-function displayChoices(){
+function displayChoices(parameter){
   let result;
   if(resultHeads === 'heads'){
     result = `Vous avez choisi : ${resultHeads}`
