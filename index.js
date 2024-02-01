@@ -56,11 +56,6 @@ const obj1 = {
 }
 
 const obj2 = obj1;
-
-const { nameFisrt, poids } = obj1;
-console.log(nameFisrt);
-console.log(poids);
-
 console.log(obj2);
 console.log(obj1 === obj2);
 
@@ -76,3 +71,8 @@ const obj3 = {
 console.log(obj1);
 console.log(obj3);
 console.log(obj1 === obj3);
+
+const { nameFisrt, poids } = obj1;
+console.log(nameFisrt);
+console.log(poids);
+
