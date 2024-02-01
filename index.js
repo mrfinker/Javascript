@@ -207,3 +207,10 @@ Multi-ligne */
 // let resultat = guess === result ? console.log('J\'ai gagner') : console.log('J\'ai perdus');
 
 // 7. Functions
+
+function greet(name){
+  console.log(`Hello ${name}`);
+}
+greet('caleb');
+greet('King');
+greet();
