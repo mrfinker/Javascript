@@ -1,12 +1,3 @@
-// 1.BASICS
-// alert("Bonjour");
-// alert("Caleb Kiangebeni");
-// console.log("On est, Mercredi 31 Janvier 2024")
-// document.body.innerHTML=('Bonjour je suis l\'element attendus sur le body')
-// console.log(9+2)
-// alert(2+2)
-// console.log("Je suis un nombre");
-
 // 2.Numbers and Math
 // let cel = 9
 // let far = 10
@@ -219,26 +210,28 @@ Multi-ligne */
 // greet('King');
 // greet();
 
-function converToFahranheit(celsius){
-  let result = (celsius * 9 / 5) + 32
-  return console.log(`${result} Degré Celsius`);
-}
-// converToFahranheit(30);
+// function converToFahranheit(celsius){
+//   let result = (celsius * 9 / 5) + 32
+//   return console.log(`${result} Degré Celsius`);
+// }
+// // converToFahranheit(30);
 
-function converToCelsius(Farhanheit){
-  let result = (Farhanheit - 32) * 5 / 9
-  return console.log(`${result} Degré Farhanheit`);
-}
-// converToCelsius(86);
+// function converToCelsius(Farhanheit){
+//   let result = (Farhanheit - 32) * 5 / 9
+//   return console.log(`${result} Degré Farhanheit`);
+// }
+// // converToCelsius(86);
 
-function convertTemperature(degree, unit){
-  if(unit === 'C'){
-    converToFahranheit(degree)
-  } else if(unit === 'F'){
-    converToCelsius(degree)
-  }
-}
+// function convertTemperature(degree, unit){
+//   if(unit === 'C'){
+//     converToFahranheit(degree)
+//   } else if(unit === 'F'){
+//     converToCelsius(degree)
+//   }
+// }
 
-convertTemperature(30, 'C')
-convertTemperature(40, 'C')
-convertTemperature(86, 'F')
+// convertTemperature(30, 'C')
+// convertTemperature(40, 'C')
+// convertTemperature(86, 'F')
+
+// 8. Objects
