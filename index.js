@@ -58,17 +58,18 @@
 
 
 
-const resultHeads = document.querySelector('.heads').innerHTML;
-const resultTails = document.querySelector('.tails').innerHTML;
-function displayChoices(par){
+// const resultHeads = document.querySelector('.heads').innerHTML;
+// const resultTails = document.querySelector('.tails').innerHTML;
+// function displayChoices(par){
 
-  let result;
-  if(resultHeads === par){
-    result = `Vous avez choisi : ${resultHeads}`;
-  } else if(resultTails === par) {
-    result = `Vous avez choisi : ${resultTails}`;
-  }
+//   let result;
+//   if(resultHeads === par){
+//     result = `Vous avez choisi : ${resultHeads}`;
+//   } else if(resultTails === par) {
+//     result = `Vous avez choisi : ${resultTails}`;
+//   }
 
-  let value = document.querySelector('.choice').innerHTML = `${result}`;
-  return value;
-}
+//   let value = document.querySelector('.choice').innerHTML = `${result}`;
+//   return value;
+// }
+
