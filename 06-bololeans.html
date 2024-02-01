@@ -12,49 +12,19 @@
 
     <button
     onclick="
-
     pickandroidMove();
-
-    
+    playerGame('Pierre');
     ">Pierre</button>
 
     <button
     onclick="
-
     pickandroidMove();
-
-    if(computerMove === 'Pierre'){
-      result = ('Tu as gagner');
-      win += 1;
-    } else if (computerMove === 'Feuille'){
-      result = ('Match nul');
-      tie += 1;
-    } else if(computerMove === 'Ciseau') {
-      result = ('Tu as perdus');
-      losse += 1;
-    }
-
-    alert(`vous avez choisis Feuille,  L\'IA a choisis ${computerMove}, ${result}`);
-
+    playerGame('Feulle');
     ">Feuille</button>
 
     <button
     onclick="
-
     pickandroidMove();
-
-    if(computerMove === 'Pierre'){
-      result = ('Tu as perdus');
-      losse += 1;
-    } else if (computerMove === 'Feuille'){
-      result = ('Tu as gagner');
-      win += 1;
-    } else if(computerMove === 'Ciseau') {
-      result = ('Match nul');
-      tie += 1;
-    }
-
-    alert(`vous avez choisis Ciseau,  L\'IA a choisis ${computerMove}, ${result}`);
 
     ">Ciseau</button>
 
