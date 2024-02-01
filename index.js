@@ -110,7 +110,6 @@ tie = 0;
 const randomNumber = Math.random();
 
 let computerNumber = '';
-
 let result = '';
 
 function playerGame(playerMove){
@@ -136,7 +135,7 @@ function playerGame(playerMove){
     } else if(computerMove === 'Ciseau') {
       result = ('Tu as perdus');
       losse += 1;
-      
+
     } else if(playerMove === 'Ciseau'){
       if(computerMove === 'Pierre'){
         result = ('Tu as perdus');
