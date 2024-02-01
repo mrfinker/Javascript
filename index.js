@@ -113,6 +113,7 @@ let computerNumber = '';
 let result = '';
 
 function playerGame(playerMove){
+  
   if(playerMove === 'Pierre'){
     if(computerMove === 'Pierre'){
       result = ('Personne n\'a gagner');
