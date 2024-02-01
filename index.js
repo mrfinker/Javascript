@@ -81,10 +81,13 @@ const obj4 = {
   nameFisrt,
   // poids: poids
   poids,
-  method: function function1(){
-    console.log('Je suis une function');
+  // method: function function1(){
+  //   console.log('Je suis une function');
+  // }
+  method(){
+    console.log('je suis une fonction');
   }
 }
 
 console.log(obj4);
-obj
+obj4.method();
