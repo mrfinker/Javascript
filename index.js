@@ -111,3 +111,13 @@ Multi-ligne */
 // let computerNumber = '';
 // let result = '';
 
+let hour = 18;
+let name = 'Caleb Kiangebeni'
+
+if (hour >= 0 && hour <= 12){
+  console.log(`Bonjour, ${name} !`);
+} else if(hour >= 13 && hour <= 17){
+  console.log('Bon apres-midi!');
+} else {
+  console.log('Bonne nuit!');
+}
