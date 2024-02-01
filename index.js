@@ -208,13 +208,20 @@ Multi-ligne */
 
 // 7. Functions
 
-function greet(name){
-  if(!name || name === undefined){
-    console.log('Hi, there!');
-  } else {
-    console.log(`Hello ${name}`);
-  }
+// function greet(name){
+//   if(!name || name === undefined){
+//     console.log('Hi, there!');
+//   } else {
+//     console.log(`Hello ${name}`);
+//   }
+// }
+// greet('caleb');
+// greet('King');
+// greet();
+
+function converToFahranheit(celsius){
+  console.log(celsius);
+  let result = (celsius * 9 / 5) + 32
+  return console.log(`${result} Degré Celsius`);
 }
-greet('caleb');
-greet('King');
-greet();
+converToFahranheit(25);
