@@ -91,3 +91,14 @@
 
 // console.log(obj4);
 // obj4.method();
+
+objBasket = {
+  nameProduct: 'Basketball',
+  price: 2095
+}
+
+objBasket.price += 500
+
+console.log(objBasket);
+objbasket['delivery-time'] = '3 days'
+console.log(objBasket);
