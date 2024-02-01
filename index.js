@@ -77,7 +77,6 @@
 function printName(){
   let nameInput = document.querySelector('.name');
   let valueInput = nameInput.value;
-
   document.querySelector('.value').innerHTML = `Votre nom est : ${valueInput}`; 
 }
 
