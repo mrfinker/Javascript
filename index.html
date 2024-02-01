@@ -14,7 +14,10 @@
     <p>Youtube abonnement</p>
 
     <button class="suscribe" onclick="
-    document.querySelector('.suscribe').innerHTML
+    const btnSub = document.querySelector('.suscribe');
+    if(btnSub.innerHTML === 'S\'abonner' ){
+      btnSub.innerHTML = 'Abonner';
+    }
     ">S'abonner</button>
     
   </body>
