@@ -13,3 +13,4 @@
 // console.log(document.body.innerHTML);
 // document.body.innerHTML=('changed')
 
+document.body.innerHTML = "<button>Bonjour</button>";
