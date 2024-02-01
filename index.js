@@ -108,10 +108,12 @@ win = 0;
 losse = 0;
 tie = 0;
 const randomNumber = Math.random();
-let computerNumber = '';
+
 let result = '';
 
 function pickandroidMove(){
+  let computerNumber = '';
+
   if (randomNumber >= 0 && randomNumber < 1/3){
     computerMove = ('Pierre');
   } else if(randomNumber >= 1/3 && randomNumber < 2/3){
@@ -119,6 +121,8 @@ function pickandroidMove(){
   } else if(randomNumber >= 2/3 && randomNumber < 1){
     computerMove = ('Ciseau');
   }
+
+  return computerNumber;
 }
 
 // let hour = 18;
