@@ -209,7 +209,11 @@ Multi-ligne */
 // 7. Functions
 
 function greet(name){
-  console.log(`Hello ${name}`);
+  if(name === undefined){
+    console.log('Hi, there!');
+  } else {
+    console.log(`Hello ${name}`);
+  }
 }
 greet('caleb');
 greet('King');
