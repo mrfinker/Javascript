@@ -22,11 +22,12 @@
 // const btnElement = document.querySelector('.btn_two');
 // console.log(btnElement);
 
-function abonner(){
-  const btnSub = document.querySelector('.suscribe');
-    if(btnSub.innerHTML === 'S\'abonner' ){
-      btnSub.innerHTML = 'Abonner';
-    } else {
-      btnSub.innerHTML = 'S\'abonner'
-    }
-}
+// function abonner(){
+//   const btnSub = document.querySelector('.suscribe');
+//     if(btnSub.innerHTML === 'S\'abonner' ){
+//       btnSub.innerHTML = 'Abonner';
+//     } else {
+//       btnSub.innerHTML = 'S\'abonner'
+//     }
+// }
+
