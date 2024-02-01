@@ -7,3 +7,6 @@ const product = {
 console.log(product);
 console.log(product.name);
 console.log(product.price);
+
+product.name = 'Change name';
+console.log(product.name);
