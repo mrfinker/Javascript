@@ -89,5 +89,5 @@
 function screenName(){
   let name = document.querySelector('.autoScreenName');
   let ValueName = name.value;
-  return document.querySelector('.screenName').innerHTML = `${ValueName}`
+  return document.querySelector('.screeName').innerHTML = `${ValueName}`
 }
