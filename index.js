@@ -113,7 +113,7 @@ let computerNumber = '';
 let result = '';
 
 function playerGame(playerMove){
-  if(playerMove === 'Ciseau'){
+  if(playerMove === 'Pierre'){
     if(computerMove === 'Pierre'){
       result = ('Personne n\'a gagner');
       tie += 1;
