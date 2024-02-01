@@ -220,8 +220,13 @@ Multi-ligne */
 // greet();
 
 function converToFahranheit(celsius){
-  console.log(celsius);
   let result = (celsius * 9 / 5) + 32
   return console.log(`${result} Degré Celsius`);
 }
-converToFahranheit(25);
+converToFahranheit(30);
+
+function converToCelsius(Farhanheit){
+  let result = (Farhanheit - 32) * 5 / 9
+  return console.log(`${result} Degré Farhanheit`);
+}
+converToCelsius(86);
