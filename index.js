@@ -223,22 +223,24 @@ function converToFahranheit(celsius){
   let result = (celsius * 9 / 5) + 32
   return console.log(`${result} Degré Celsius`);
 }
-converToFahranheit(30);
+// converToFahranheit(30);
 
 function converToCelsius(Farhanheit){
   let result = (Farhanheit - 32) * 5 / 9
   return console.log(`${result} Degré Farhanheit`);
 }
-converToCelsius(86);
+// converToCelsius(86);
 
 function convertTemperature(degree, unit){
+  let result = '';
   if(unit === 'C'){
     converToFahranheit(degree)
-    return `${dregree}F`;
+    result = `${dregree}F`;
   } else if(unit === 'F'){
     converToCelsius(degree)
-    return `${dregree}C`;
+    result = `${dregree}C`;
   }
+  return result;
 }
 
 convertTemperature(30, 'C')
