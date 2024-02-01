@@ -92,16 +92,19 @@
 // console.log(obj4);
 // obj4.method();
 
-// objBasket = {
-//   nameProduct: 'Basketball',
-//   price: 2095,
-//   ['delivery-time']: '3 days',
-// }
+objBasket = {
+  nameProduct: 'Basketball',
+  price: 2095,
+  ['delivery-time']: '3 days',
+}
 
-// objShirt = {
-//   nameProduct: 'Shirt',
-//   price: 5000
-// }
+objShirt = {
+  nameProduct: 'Shirt',
+  price: 5000
+}
+
+objBasket = objShirt;
+console.log(objBasket);
 
 // function comparePrice(product1, product2){
 //   let result = '';
@@ -121,5 +124,14 @@
 // console.log(objBasket['delivery-time']);
 
 function isSameProduct(product1, product2){
-  
+  let result;
+  if(product1 === product2){
+    result = true;
+  } else {
+    result = false;
+  }
+
+  return console.log(result);
 }
+
+isSameProduct(objBasket, objShirt);
