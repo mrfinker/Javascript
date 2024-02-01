@@ -138,4 +138,4 @@
 
 let message = 'Good Morning!';
 let lowMessage = message.toLowerCase();
-console.log(lowMessage);
+console.log(lowMessage.repeat(2));
