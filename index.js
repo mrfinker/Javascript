@@ -131,23 +131,25 @@ Multi-ligne */
 //   console.log('Not discount');
 // }
 
-let randomNumber = Math.random();
-let result = '';
+// let randomNumber = Math.random();
+// let result = '';
 
-if(randomNumber < 0.5){
-  result = ('Heads');
-} else {
-  result = ('Tails');
-}
+// if(randomNumber < 0.5){
+//   result = ('Heads');
+// } else {
+//   result = ('Tails');
+// }
 
-console.log(result);
+// console.log(result);
 
-let guess = 'Heads';
+// let guess = 'Heads';
 
-if(guess === result){
-  console.log('J\'ai gagner');
-} else {
-  console.log('J\'ai perdus');
-}
+// if(guess === result){
+//   console.log('J\'ai gagner');
+// } else {
+//   console.log('J\'ai perdus');
+// }
 
-let resultat = guess === result ? console.log('J\'ai gagner') : console.log('J\'ai perdus');
+// let resultat = guess === result ? console.log('J\'ai gagner') : console.log('J\'ai perdus');
+
+// 7. Functions
