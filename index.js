@@ -64,4 +64,6 @@ console.log(poids);
 console.log(obj2);
 console.log(obj1 === obj2);
 
-obj2
+obj1.nameFisrt = 'Kiangebeni';
+console.log(obj1);
+console.log(obj2);
