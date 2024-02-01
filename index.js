@@ -19,4 +19,5 @@
 // console.log(document.querySelector("button"));
 // document.querySelector("button").innerHTML = "changed!!";
 
-document.querySelector('.btn_two')
+const btnElement = document.querySelector('.btn_two');
+console.log(btnElement);
