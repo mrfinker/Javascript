@@ -41,3 +41,9 @@ function calculateCost(){
   
   document.querySelector('.result').innerHTML = `$${value}`;
 }
+
+function handleCostEnterKey(){
+  if(event.key === 'Enter'){
+    calculateCost();
+  }
+}

@@ -20,9 +20,7 @@
     <p>Amazon shipping Calculator</p>
 
     <input placeholder="cost of order" class="cost" onkeydown="
-    if(event.key === 'Enter'){
-      calculateCost();
-    }
+    handleCostEnterKey();
     ">
 
     <button onclick="
