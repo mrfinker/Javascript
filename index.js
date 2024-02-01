@@ -39,5 +39,5 @@ function calculateCost(){
     } else{
       value
     }
-  return document.querySelector('.result').innerHTML = value;
+  return document.querySelector('.result').innerHTML = `$${value}`;
 }
