@@ -97,6 +97,7 @@ function playerGame(playerMove){
   localStorage.setItem('score', JSON.stringify(score));
 
   updateScore();
+  choicePlayers();
 
 }
 
@@ -104,6 +105,12 @@ function updateScore(){
   document.querySelector('.score')
   .innerHTML = 
   `Gagner : ${score.win}, Perdus : ${score.losse}, nul : ${score.tie}`
+}
+
+function choicePlayers(){
+  document.querySelector('choices')
+  .innerHTML = 
+  `vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}`
 }
 
 function pickandroidMove(){
