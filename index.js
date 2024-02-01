@@ -76,3 +76,9 @@ const { nameFisrt, poids } = obj1;
 console.log(nameFisrt);
 console.log(poids);
 
+const obj4 = {
+  nameFisrt: nameFisrt,
+  poids: poids
+}
+
+console.log(obj4);
