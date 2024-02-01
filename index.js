@@ -109,10 +109,11 @@ losse = 0;
 tie = 0;
 const randomNumber = Math.random();
 
+let computerNumber = '';
+
 let result = '';
 
 function pickandroidMove(){
-  let computerNumber = '';
 
   if (randomNumber >= 0 && randomNumber < 1/3){
     computerMove = ('Pierre');
@@ -122,7 +123,7 @@ function pickandroidMove(){
     computerMove = ('Ciseau');
   }
 
-  return computerNumber;
+  return console.log(computerMove);
 }
 
 // let hour = 18;
