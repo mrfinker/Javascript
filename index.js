@@ -221,13 +221,13 @@ Multi-ligne */
 
 function converToFahranheit(celsius){
   let result = (celsius * 9 / 5) + 32
-  return console.log(`${result} Degré Celsius`);
+  // return console.log(`${result} Degré Celsius`);
 }
 // converToFahranheit(30);
 
 function converToCelsius(Farhanheit){
   let result = (Farhanheit - 32) * 5 / 9
-  return console.log(`${result} Degré Farhanheit`);
+  // return console.log(`${result} Degré Farhanheit`);
 }
 // converToCelsius(86);
 
@@ -235,13 +235,14 @@ function convertTemperature(degree, unit){
   let result = '';
   if(unit === 'C'){
     converToFahranheit(degree)
-    result = `${dregree}F`;
+    result = `${degree}F`;
   } else if(unit === 'F'){
     converToCelsius(degree)
-    result = `${dregree}C`;
+    result = `${degree}C`;
   }
   return result;
 }
 
 convertTemperature(30, 'C')
+convertTemperature(40, 'C')
 convertTemperature(86, 'F')
