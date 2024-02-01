@@ -104,27 +104,44 @@ Multi-ligne */
 // message = undefined || 'USD'
 // console.log(message);
 
-// win = 0;
-// losse = 0;
-// tie = 0;
-// const randomNumber = Math.random();
+win = 0;
+losse = 0;
+tie = 0;
+const randomNumber = Math.random();
 
-// let computerNumber = '';
+let computerNumber = '';
 
-// let result = '';
+let result = '';
 
-// function pickandroidMove(){
+function playerGame(playerMove){
+  if(playerMove === 'Ciseau'){
+    if(computerMove === 'Pierre'){
+      result = ('Personne n\'a gagner');
+      tie += 1;
+    } else if (computerMove === 'Feuille'){
+      result = ('L\'IA a gagner');
+      losse += 1;
+    } else if(computerMove === 'Ciseau') {
+      result = ('Tu as gagner');
+      win += 1;
+    }
 
-//   if (randomNumber >= 0 && randomNumber < 1/3){
-//     computerMove = ('Pierre');
-//   } else if(randomNumber >= 1/3 && randomNumber < 2/3){
-//     computerMove = ('Feuille');
-//   } else if(randomNumber >= 2/3 && randomNumber < 1){
-//     computerMove = ('Ciseau');
-//   }
+    alert(`vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}`);
+  }
+}
 
-//   return console.log(computerMove);
-// }
+function pickandroidMove(){
+
+  if (randomNumber >= 0 && randomNumber < 1/3){
+    computerMove = ('Pierre');
+  } else if(randomNumber >= 1/3 && randomNumber < 2/3){
+    computerMove = ('Feuille');
+  } else if(randomNumber >= 2/3 && randomNumber < 1){
+    computerMove = ('Ciseau');
+  }
+
+  return console.log(computerMove);
+}
 
 // let hour = 18;
 // let name = 'Caleb Kiangebeni'
