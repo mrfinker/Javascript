@@ -136,18 +136,17 @@ function playerGame(playerMove){
     } else if(computerMove === 'Ciseau') {
       result = ('Tu as perdus');
       losse += 1;
-
-    } else if(playerMove === 'Ciseau'){
-      if(computerMove === 'Pierre'){
-        result = ('Tu as perdus');
-        losse += 1;
-      } else if (computerMove === 'Feuille'){
-        result = ('Tu as gagner');
-        win += 1;
-      } else if(computerMove === 'Ciseau') {
-        result = ('Match nul');
-        tie += 1;
-      }
+    } 
+  } else if(playerMove === 'Ciseau'){
+    if(computerMove === 'Pierre'){
+      result = ('Tu as perdus');
+      losse += 1;
+    } else if (computerMove === 'Feuille'){
+      result = ('Tu as gagner');
+      win += 1;
+    } else if(computerMove === 'Ciseau') {
+      result = ('Match nul');
+      tie += 1;
     }
   }
   alert(`vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}`);
