@@ -44,7 +44,15 @@ console.log(message);
 message = undefined || 'USD'
 console.log(message);
 
-const score = JSON.parse(localStorage.getItem('score'));
+let score = JSON.parse(localStorage.getItem('score'));
+
+if(score === null){
+  score = {
+    win: 0,
+    tie: 0,
+    losse: 0
+  }
+}
 
 let computerNumber = '';
 let result = '';
