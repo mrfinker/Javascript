@@ -85,7 +85,12 @@ console.log(resultat);
 resultat = false ? 'yes' : 'No';
 console.log(resultat);
 
-let 
+let message;
+message = false && 'Bonjour a tous'
+console.log(message);
+
+message = true && 'Bonjour a tous'
+console.log(message);
 
 win = 0;
 losse = 0;
