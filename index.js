@@ -232,7 +232,6 @@ function converToCelsius(Farhanheit){
 // converToCelsius(86);
 
 function convertTemperature(degree, unit){
-  let result = '';
   if(unit === 'C'){
     converToFahranheit(degree)
   } else if(unit === 'F'){
