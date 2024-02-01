@@ -73,3 +73,8 @@
 //   return value;
 // }
 
+let nameInput = document.querySelector('.name').innerHTML;
+let valueInput = nameInput.value;
+function printName(){
+
+}
