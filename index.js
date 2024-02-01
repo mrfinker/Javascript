@@ -121,3 +121,11 @@ if (hour >= 0 && hour <= 12){
 } else {
   console.log(`Bonne nuit, ${name}!`);
 }
+
+let age = 25;
+
+if((age >= 6 && age <=64) || (age >= 65)){
+  console.log('Discount');
+} else {
+  console.log('Not discount');
+}
