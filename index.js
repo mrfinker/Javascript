@@ -35,8 +35,6 @@ function calculateCost(){
   let cost = document.querySelector('.cost');
   let value = Number(cost.value);
   
-  console.log(value);
-  
   if(value < 40){
     value += 10;
   }
