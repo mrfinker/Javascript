@@ -32,15 +32,15 @@
 // }
 
 let cost = document.querySelector('.cost');
-function calculateCost(cost){
-  if(cost < 40){
-    cost += 10;
-    } else{
-      cost
-    }
-  return cost;
-}
+// function calculateCost(cost){
+  
+//   return document.querySelector('.result').innerHTML = cost;
+// }
 
+if(cost < 40){
+  cost += 10;
+  } else{
+    cost
+  }
 
-
-document.querySelector('.result').innerHTML = `${calculateCost(cost)}`;
+document.querySelector('.result').innerHTML = cost;
