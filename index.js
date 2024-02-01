@@ -136,5 +136,6 @@
 
 // isSameProduct(objBasket, objShirt);
 
-let message = 'Good Morning!'.toUpperCase;
-console.log(message);
+let message = 'Good Morning!';
+let lowMessage = message.toLowerCase();
+console.log(lowMessage);
