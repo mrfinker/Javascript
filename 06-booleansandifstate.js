@@ -54,6 +54,8 @@ const score = {
 let computerNumber = '';
 let result = '';
 
+localStorage.getItem(JSON.parse('score'))
+
 function playerGame(playerMove){
   
   if(playerMove === 'Pierre'){
@@ -90,6 +92,9 @@ function playerGame(playerMove){
   } else if(result === 'Match nul'){
     score.tie += 1;
   }
+
+  localStorage.setItem('score', JSON.stringify(score));
+
   alert(`vous avez choisis ${playerMove},  L\'IA a choisis ${computerMove}, ${result}
 Gagner : ${score.win}, Perdus : ${score.losse}, nul : ${score.tie}`);
 }
