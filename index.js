@@ -62,5 +62,6 @@ function handlePressEnter(event){
 }
 
 function valueOntap(){
-  document.querySelector('.valueOntap').innerHTML = nameUser;
+  let valueTap = document.querySelector('.nameInput').value;
+  document.querySelector('.valueOntap').innerHTML = valueTap;
 }
