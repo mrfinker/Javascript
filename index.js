@@ -93,11 +93,11 @@ function recupNameDate() {
 
   renderList();
 
+  console.log(userData);
+
   document.querySelector(".nameInput").value = "";
   document.querySelector(".dateInput").value = "";
   document.querySelector(".valueOntap").innerHTML = "";
-
-  console.log(userData);
 }
 
 function renderList(){
