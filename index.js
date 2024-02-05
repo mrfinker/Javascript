@@ -77,6 +77,7 @@ let userData = [];
 let nameUser;
 let date;
 let infoUser = {};
+let ListHMTL = '';
 function recupNameDate() {
   nameUser = document.querySelector(".nameInput").value;
   dateUser = document.querySelector(".dateInput").value;
@@ -99,6 +100,8 @@ function recupNameDate() {
     let Datefinish = userData[i].date;
 
     const html = `<div class="values"><p>${Nomfinish}</p><p>${Datefinish}</p></div>`;
+
+    ListHMTL += html;
   }
 
   console.log(userData);
