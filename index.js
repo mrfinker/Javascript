@@ -10,5 +10,6 @@ console.log(myArray);
 );
 
 let myArray1 = [1, 'hello', true, { name: 'Caleb', age: 30 }, [1, 2, 3]];
+console.log(typeof myArray1);
 console.log(myArray1);
 console.log(myArray1[3].name)
