@@ -9,7 +9,7 @@
 //   console.log(`Value : ${value} , Index : ${index}`)
 // );
 
-let myArray1 = [1, 'hello', true, { name: 'Caleb', age: 30 }, [1, 2, 3]];
+// let myArray1 = [1, 'hello', true, { name: 'Caleb', age: 30 }, [1, 2, 3]];
 // console.log(typeof myArray1);
 // console.log(myArray1);
 // console.log(myArray1[3].name)
@@ -39,5 +39,13 @@ let myArray1 = [1, 'hello', true, { name: 'Caleb', age: 30 }, [1, 2, 3]];
 // console.log(myArray1);
 // myArray1.splice(3, 0, 'hello');
 // console.log(myArray1);
-myArray1.splice(0, 0, 'hello', 'hello');
-console.log(myArray1);
+// myArray1.splice(0, 0, 'hello', 'hello');
+// console.log(myArray1);
+
+function recupNameDate(){
+  let name = document.querySelector('.nameInput').value;
+  let userData = [];
+  console.log(userData);
+  userData.push(name);
+  console.log(userData);
+}
