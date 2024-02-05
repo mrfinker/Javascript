@@ -79,6 +79,8 @@ let date;
 let infoUser = {};
 let ListHMTL = '';
 
+renderList();
+
 function recupNameDate() {
   nameUser = document.querySelector(".nameInput").value;
   dateUser = document.querySelector(".dateInput").value;
