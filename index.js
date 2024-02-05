@@ -44,8 +44,7 @@
 
 function recupNameDate(){
   let name = document.querySelector('.nameInput').value;
-  let userData = Array.isArray(localStorage) ? JSON.parse(localStorage.getItem('userData')) : [];
-  console.log(userData);
+  let userData = [];
   userData.push(name);
   console.log(userData);
 }
