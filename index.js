@@ -52,6 +52,7 @@ function recupNameDate(){
     alert('Veuillez remplire tout les champs (* sans espace) !');
   }
   document.querySelector('.nameInput').value = '';
+  console.log(nameUser);
   console.log(userData);
 }
 
