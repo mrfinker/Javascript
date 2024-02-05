@@ -109,7 +109,6 @@ function renderList(){
     ListHMTL += html;
   }
   document.querySelector('.allvalue').innerHTML = ListHMTL;
-  console.log(ListHMTL);
 }
 
 function handlePressEnter(event) {
