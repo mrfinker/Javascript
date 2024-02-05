@@ -122,3 +122,7 @@ function valueOntap() {
   let nameTap = document.querySelector(".nameInput").value;
   document.querySelector(".valueOntap").innerHTML = `${nameTap}`;
 }
+
+for(let i = 0; i <= 10; i++){
+  
+}
