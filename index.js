@@ -74,10 +74,12 @@ function recupNameDate(){
   let i;
 
   for(i = 0; i < userData.length; i++){
-    console.log(userData[i].nom);
-    console.log(userData[i].date);
-    document.querySelector('.valueNom').innerHTML = `${userData[i].nom}`
-    document.querySelector('.valueDate').innerHTML = `${userData[i].date}`
+    let Nomfinish = userData[i].nom;
+    let Datefinish = userData[i].date;
+    console.log(Nomfinish);
+    console.log(Datefinish);
+    document.querySelector('.valueNom').innerHTML = `${Nomfinish}`
+    document.querySelector('.valueDate').innerHTML = `${Datefinish}`
   }
 
 
