@@ -13,3 +13,7 @@ let myArray1 = [1, 'hello', true, { name: 'Caleb', age: 30 }, [1, 2, 3]];
 console.log(typeof myArray1);
 console.log(myArray1);
 console.log(myArray1[3].name)
+
+let ArraysOne = Array.isArray(myArray1);
+console.log(ArraysOne);
+console.log(myArray1.length);
