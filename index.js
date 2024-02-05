@@ -49,7 +49,7 @@ function recupNameDate(){
     userData.push(name);
     alert(`Nouvelle valeur : ${name} a été, ajouter !`)
   } else {
-    alert('Veuillez ajouter un nom');
+    alert('Veuillez remplire tout les champs (* sans espace) !');
   }
   document.querySelector('.nameInput').value = '';
   console.log(userData);
