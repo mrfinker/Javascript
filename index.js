@@ -26,3 +26,18 @@ myArray1.shift();
 console.log(myArray1);
 myArray1.pop();
 console.log(myArray1);
+
+myArray1.splice(1, 1);
+console.log(myArray1);
+myArray1.splice(1, 0, 'hello');
+console.log(myArray1);
+myArray1.splice(2, 1, 'hello');
+console.log(myArray1);
+myArray1.splice(2, 0, 'hello');
+console.log(myArray1);
+myArray1.splice(3, 1);
+console.log(myArray1);
+myArray1.splice(3, 0, 'hello');
+console.log(myArray1);
+myArray1.splice(0, 0, 'hello', 'hello');
+console.log(myArray1);
