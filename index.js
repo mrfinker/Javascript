@@ -62,7 +62,7 @@ function recupNameDate(){
   document.querySelector('.valueOntap').innerHTML = '';
 
   for(let i = 0; i < userData.length; i++){
-    console.log(userData[i]);
+    console.log(userData[i].nom);
   }
 
   document.querySelector('.valueAll').innerHTML = `${userData}`
