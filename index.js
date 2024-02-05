@@ -67,7 +67,7 @@ let allValue = [];
 for(let i = 0; i < nums.length; i++){
   total += nums[i];
   let sumValue = total ;
-  allValue.push(sumValue);
+  allValue.push(sumValue * 5);
   console.log(allValue);
 }
 
