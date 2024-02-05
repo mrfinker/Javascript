@@ -62,7 +62,7 @@ function recupNameDate(){
   if((nameUser.trim() !== "" && nameUser.length <= 10) && dateUser !== ""){
     infoUser = {nom: nameUser, date: dateUser}
     userData.push(infoUser);
-    alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
+    // alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
   } else {
     alert('Veuillez remplire tout les champs (* sans espace) ou texte trop long !');
   }
