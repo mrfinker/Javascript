@@ -44,9 +44,11 @@
 
 let userData = [];
 let nameUser;
+let date;
 function recupNameDate(){
   nameUser = document.querySelector('.nameInput').value;
-  if(nameUser.trim() !== "" && nameUser.length <= 10){
+  dateUser = document.querySelector('.dateInput').value;
+  if((nameUser.trim() !== "" && nameUser.length <= 10) && dateUser !== ""){
     userData.push(nameUser);
     alert(`Nouvelle valeur : ${nameUser} a été, ajouter !`)
   } else {
