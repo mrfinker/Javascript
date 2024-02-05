@@ -104,6 +104,7 @@ function recupNameDate() {
     ListHMTL += html;
   }
 
+  document.querySelector('.allvalue').innerHTML = ListHMTL;
   console.log(userData);
 }
 
