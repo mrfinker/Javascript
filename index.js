@@ -78,13 +78,14 @@ let nameUser;
 let date;
 let infoUser = {};
 let ListHMTL = '';
+
 function recupNameDate() {
   nameUser = document.querySelector(".nameInput").value;
   dateUser = document.querySelector(".dateInput").value;
   if (nameUser.trim() !== "" && nameUser.length <= 10 && dateUser !== "") {
     infoUser = { nom: nameUser, date: dateUser };
     userData.push(infoUser);
-    // alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
+    alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
   } else {
     alert(
       "Veuillez remplire tout les champs (* sans espace) ou texte trop long !"
@@ -92,8 +93,6 @@ function recupNameDate() {
   }
 
   renderList();
-
-  console.log(userData);
 
   document.querySelector(".nameInput").value = "";
   document.querySelector(".dateInput").value = "";
