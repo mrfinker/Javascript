@@ -48,6 +48,10 @@ while (u <= 10) {
   u++;
 }
 
+for(let u = 1; u < 15; u++){
+  console.log(u);
+}
+
 let userData = [];
 let nameUser;
 let date;
