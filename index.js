@@ -60,6 +60,16 @@
 //   console.log(total);
 // }
 
+const nums = [2,6,8];
+let total = 0;
+let allValue = [];
+
+for(let i = 0; i < nums.length; i++){
+  let newNum = nums[i];
+  allValue.push(newNum);
+  console.log(allValue);
+}
+
 let userData = [];
 let nameUser;
 let date;
