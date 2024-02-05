@@ -61,8 +61,6 @@ function handlePressEnter(event){
   }
 }
 
-function valueOntap(event){
-  if(event.key){
-    document.querySelector('.valueOntap').innerHTML = nameUser;
-  }
+function valueOntap(){
+  document.querySelector('.valueOntap').innerHTML = nameUser;
 }
