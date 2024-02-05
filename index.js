@@ -45,6 +45,10 @@
 function recupNameDate(){
   let name = document.querySelector('.nameInput').value;
   let userData = [];
-  userData.push(name);
+  if(name === ""){
+    alert('Veuillez ajouter un nom');
+  } else {
+    userData.push(name);
+  }
   console.log(userData);
 }
