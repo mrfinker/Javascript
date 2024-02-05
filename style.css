@@ -2,3 +2,18 @@
   border-style: dashed;
   font-size: medium;
 }
+
+.values{
+  font-size: small;
+  width: auto;
+  height: 64px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 12px;
+  border-style: unset;
+  background-color: beige;  
+}
