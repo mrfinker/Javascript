@@ -17,3 +17,12 @@ console.log(myArray1[3].name)
 let ArraysOne = Array.isArray(myArray1);
 console.log(ArraysOne);
 console.log(myArray1.length);
+
+myArray1.push('hello');
+console.log(myArray1);
+myArray1.unshift('hello');
+console.log(myArray1);
+myArray1.shift();
+console.log(myArray1);
+myArray1.pop();
+console.log(myArray1);
