@@ -54,3 +54,9 @@ function recupNameDate(){
   document.querySelector('.nameInput').value = '';
   console.log(userData);
 }
+
+function handlePressEnter(event){
+  if(event.key === 'Enter'){
+    recupNameDate();
+  }
+}
