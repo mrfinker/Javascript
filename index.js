@@ -42,9 +42,9 @@
 // myArray1.splice(0, 0, 'hello', 'hello');
 // console.log(myArray1);
 
+let userData = [];
 function recupNameDate(){
   let name = document.querySelector('.nameInput').value;
-  let userData = [];
   if(name === ""){
     alert('Veuillez ajouter un nom');
   } else {
