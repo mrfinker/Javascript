@@ -77,43 +77,40 @@ let userData = [];
 let nameUser;
 let date;
 let infoUser = {};
-function recupNameDate(){
-  nameUser = document.querySelector('.nameInput').value;
-  dateUser = document.querySelector('.dateInput').value;
-  if((nameUser.trim() !== "" && nameUser.length <= 10) && dateUser !== ""){
-    infoUser = {nom: nameUser, date: dateUser}
+function recupNameDate() {
+  nameUser = document.querySelector(".nameInput").value;
+  dateUser = document.querySelector(".dateInput").value;
+  if (nameUser.trim() !== "" && nameUser.length <= 10 && dateUser !== "") {
+    infoUser = { nom: nameUser, date: dateUser };
     userData.push(infoUser);
     // alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
   } else {
-    alert('Veuillez remplire tout les champs (* sans espace) ou texte trop long !');
+    alert(
+      "Veuillez remplire tout les champs (* sans espace) ou texte trop long !"
+    );
   }
 
-  document.querySelector('.nameInput').value = '';
-  document.querySelector('.dateInput').value = '';
-  document.querySelector('.valueOntap').innerHTML = '';
+  document.querySelector(".nameInput").value = "";
+  document.querySelector(".dateInput").value = "";
+  document.querySelector(".valueOntap").innerHTML = "";
 
-  for(let i = 0; i < userData.length; i++){
+  for (let i = 0; i < userData.length; i++) {
     let Nomfinish = userData[i].nom;
     let Datefinish = userData[i].date;
 
-    const html = `<p>${Nomfinish}</p>`;
-
-    console.log(Nomfinish);
-    console.log(Datefinish);
-    document.querySelector('.valueNom').innerHTML = `${Nomfinish}`
-    document.querySelector('.valueDate').innerHTML = `${Datefinish}`
+    const html = `<div class="values"><p>${Nomfinish}</p><p>${Datefinish}</p></div>`;
   }
 
   console.log(userData);
 }
 
-function handlePressEnter(event){
-  if(event.key === 'Enter'){
+function handlePressEnter(event) {
+  if (event.key === "Enter") {
     recupNameDate();
   }
 }
 
-function valueOntap(){
-  let nameTap = document.querySelector('.nameInput').value;
-  document.querySelector('.valueOntap').innerHTML = `${nameTap}`;
+function valueOntap() {
+  let nameTap = document.querySelector(".nameInput").value;
+  document.querySelector(".valueOntap").innerHTML = `${nameTap}`;
 }
