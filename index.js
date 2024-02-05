@@ -95,6 +95,9 @@ function recupNameDate(){
   for(let i = 0; i < userData.length; i++){
     let Nomfinish = userData[i].nom;
     let Datefinish = userData[i].date;
+
+    const html = `<p>${Nomfinish}</p>`;
+
     console.log(Nomfinish);
     console.log(Datefinish);
     document.querySelector('.valueNom').innerHTML = `${Nomfinish}`
