@@ -91,10 +91,6 @@ function recupNameDate() {
     );
   }
 
-  document.querySelector(".nameInput").value = "";
-  document.querySelector(".dateInput").value = "";
-  document.querySelector(".valueOntap").innerHTML = "";
-
   for (let i = 0; i < userData.length; i++) {
     let Nomfinish = userData[i].nom;
     let Datefinish = userData[i].date;
@@ -103,6 +99,10 @@ function recupNameDate() {
 
     ListHMTL += html;
   }
+
+  document.querySelector(".nameInput").value = "";
+  document.querySelector(".dateInput").value = "";
+  document.querySelector(".valueOntap").innerHTML = "";
 
   document.querySelector('.allvalue').innerHTML = ListHMTL;
   console.log(userData);
