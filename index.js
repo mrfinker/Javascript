@@ -60,18 +60,18 @@
 //   console.log(total);
 // }
 
-const nums = [2,6,8];
-let total = 0;
-let allValue = [];
+// const nums = [2,6,8];
+// let total = 0;
+// let allValue = [];
 
-for(let i = 0; i < nums.length; i++){
-  const num = nums[i];
-  total += num;
-  let sumValue = total;
-  
-  allValue.push(sumValue * 5);
-  console.log(allValue);
-}
+// for(let i = 0; i < nums.length; i++){
+//   const num = nums[i];
+//   total += num;
+//   let sumValue = total;
+
+//   allValue.push(sumValue * 5);
+//   console.log(allValue);
+// }
 
 let userData = [];
 let nameUser;
