@@ -45,6 +45,7 @@
 let userData = [];
 let nameUser = document.querySelector('.nameInput').value;
 function recupNameDate(){
+  console.log(nameUser);
   if(nameUser.trim() !== ""){
     userData.push(nameUser);
     alert(`Nouvelle valeur : ${nameUser} a été, ajouter !`)
