@@ -56,9 +56,13 @@ function recupNameDate(){
   } else {
     alert('Veuillez remplire tout les champs (* sans espace) ou texte trop long !');
   }
+
   document.querySelector('.nameInput').value = '';
   document.querySelector('.dateInput').value = '';
   document.querySelector('.valueOntap').innerHTML = '';
+
+  document.querySelector('.valueAll').innerHTML = `${userData}`
+
   console.log(userData);
 }
 
