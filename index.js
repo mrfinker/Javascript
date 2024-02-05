@@ -43,11 +43,11 @@
 // console.log(myArray1);
 
 let userData = [];
+let nameUser = document.querySelector('.nameInput').value;
 function recupNameDate(){
-  let name = document.querySelector('.nameInput').value;
-  if(name.trim() !== ""){
-    userData.push(name);
-    alert(`Nouvelle valeur : ${name} a été, ajouter !`)
+  if(nameUser.trim() !== ""){
+    userData.push(nameUser);
+    alert(`Nouvelle valeur : ${nameUser} a été, ajouter !`)
   } else {
     alert('Veuillez remplire tout les champs (* sans espace) !');
   }
@@ -61,6 +61,8 @@ function handlePressEnter(event){
   }
 }
 
-function valueOntap(){
-  document.querySelector('.valueOntap').innerHTML = userData;
+function valueOntap(event){
+  if(event.key){
+    document.querySelector('.valueOntap').innerHTML = nameUser;
+  }
 }
