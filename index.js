@@ -71,9 +71,7 @@ function recupNameDate(){
   document.querySelector('.dateInput').value = '';
   document.querySelector('.valueOntap').innerHTML = '';
 
-  let i;
-
-  for(i = 0; i < userData.length; i++){
+  for(let i = 0; i < userData.length; i++){
     let Nomfinish = userData[i].nom;
     let Datefinish = userData[i].date;
     console.log(Nomfinish);
@@ -81,7 +79,6 @@ function recupNameDate(){
     document.querySelector('.valueNom').innerHTML = `${Nomfinish}`
     document.querySelector('.valueDate').innerHTML = `${Datefinish}`
   }
-
 
   console.log(userData);
 }
