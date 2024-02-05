@@ -70,6 +70,5 @@ function handlePressEnter(event){
 
 function valueOntap(){
   let nameTap = document.querySelector('.nameInput').value;
-  let dateTap = document.querySelector('.dateInput').value;
-  document.querySelector('.valueOntap').innerHTML = `${nameTap} et ${dateTap}`;
+  document.querySelector('.valueOntap').innerHTML = `${nameTap}`;
 }
