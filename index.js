@@ -43,8 +43,9 @@
 // console.log(myArray1);
 
 let userData = [];
-let nameUser = document.querySelector('.nameInput').value;
+let nameUser;
 function recupNameDate(){
+  nameUser = document.querySelector('.nameInput').value;
   if(nameUser.trim() !== "" && nameUser.length <= 10){
     userData.push(nameUser);
     alert(`Nouvelle valeur : ${nameUser} a été, ajouter !`)
@@ -52,7 +53,7 @@ function recupNameDate(){
     alert('Veuillez remplire tout les champs (* sans espace) !');
   }
   document.querySelector('.nameInput').value = '';
-  console.log(nameUser);
+  document.querySelector('.valueOntap').innerHTML = '';
   console.log(userData);
 }
 
