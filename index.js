@@ -42,15 +42,15 @@
 // myArray1.splice(0, 0, 'hello', 'hello');
 // console.log(myArray1);
 
-let u = 1;
-while (u <= 10) {
-  console.log(u);
-  u++;
-}
+// let u = 1;
+// while (u <= 10) {
+//   console.log(u);
+//   u++;
+// }
 
-for(let u = 1; u < 15; u++){
-  console.log(u);
-}
+// for(let u = 1; u < 15; u++){
+//   console.log(u);
+// }
 
 let userData = [];
 let nameUser;
