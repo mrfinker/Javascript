@@ -61,6 +61,10 @@ function recupNameDate(){
   document.querySelector('.dateInput').value = '';
   document.querySelector('.valueOntap').innerHTML = '';
 
+  for(let i = 0; i < userData.length; i++){
+    console.log(userData[i]);
+  }
+
   document.querySelector('.valueAll').innerHTML = `${userData}`
 
   console.log(userData);
