@@ -45,7 +45,7 @@
 let userData = [];
 let nameUser;
 let date;
-const infoUser = {};
+let infoUser = {};
 function recupNameDate(){
   nameUser = document.querySelector('.nameInput').value;
   dateUser = document.querySelector('.dateInput').value;
