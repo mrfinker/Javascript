@@ -88,15 +88,16 @@ function recupNameDate() {
     alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
   } else {
     alert(
-      "Veuillez remplire tout les champs (* sans espace) ou texte trop long !"
+      "Veuillez remplire tout les champs (* sans espace), texte trop long ou date manquante !"
     );
   }
-
-  renderList();
 
   document.querySelector(".nameInput").value = "";
   document.querySelector(".dateInput").value = "";
   document.querySelector(".valueOntap").innerHTML = "";
+  
+  renderList();
+
 }
 
 function renderList(){
