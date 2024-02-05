@@ -47,8 +47,10 @@ function recupNameDate(){
   let name = document.querySelector('.nameInput').value;
   if(name.trim() !== ""){
     userData.push(name);
+    alert(`Nouvelle valeur : ${name} a été, ajouter !`)
   } else {
     alert('Veuillez ajouter un nom');
   }
+  name = '';
   console.log(userData);
 }
