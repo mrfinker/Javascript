@@ -67,7 +67,7 @@ function recupNameDate(){
     console.log(userData[i].nom);
     console.log(userData[i].date);
     document.querySelector('.valueNom').innerHTML = `${userData[i].nom}`
-    document.querySelector('.valuedate').innerHTML = `${userData[i].date}`
+    document.querySelector('.valueDate').innerHTML = `${userData[i].date}`
   }
 
 
