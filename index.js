@@ -51,6 +51,6 @@ function recupNameDate(){
   } else {
     alert('Veuillez ajouter un nom');
   }
-  name = '';
+  document.querySelector('.nameInput').value = '';
   console.log(userData);
 }
