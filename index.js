@@ -50,7 +50,8 @@ function recupNameDate(){
   nameUser = document.querySelector('.nameInput').value;
   dateUser = document.querySelector('.dateInput').value;
   if((nameUser.trim() !== "" && nameUser.length <= 10) && dateUser !== ""){
-    userData.push(nameUser);
+    infoUser = {nom: nameUser, date: dateUser}
+    userData.push(infoUser);
     alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
   } else {
     alert('Veuillez remplire tout les champs (* sans espace) ou texte trop long !');
