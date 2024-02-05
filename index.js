@@ -60,3 +60,7 @@ function handlePressEnter(event){
     recupNameDate();
   }
 }
+
+function valueOntap(){
+  document.querySelector('.valueOntap').innerHTML = userData;
+}
