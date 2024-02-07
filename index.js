@@ -146,7 +146,9 @@ let secArray = ["hi", "hello", "good"];
 
 function arraySwap(array) {
   let lastIndex = array.length - 1;
+  console.log(lastIndex);
   let firstIndex = array[0];
+  console.log(firstIndex);
   let a = array[firstIndex];
   console.log(a);
   let b = array[lastIndex];
