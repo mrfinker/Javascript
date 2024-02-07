@@ -149,11 +149,10 @@ function arraySwap(array) {
   
   let c = array[last];
   let b = array[0];
-  let a = c;
 
   array[last] = b;
-  array[0] = a;
-  
+  array[0] = c;
+
   return array;
 }
 
