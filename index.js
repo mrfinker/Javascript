@@ -133,6 +133,11 @@
 // let valChange = nums[lastValue] = 99
 // console.log(nums);
 
+let firstArray = [1,20,22,24,5]
+
 function getLastValue(array){
-  
+  let lastIndex = array.length - 1;
+  return lastIndex;
 }
+
+console.log(getLastValue(firstArray));
