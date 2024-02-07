@@ -148,8 +148,11 @@ function arraySwap(array) {
   let lastIndex = array.length - 1;
   let firstIndex = array[0];
   let a = array[firstIndex];
+  console.log(a);
   let b = array[lastIndex];
+  console.log(b);
   let c = a;
+  console.log(c);
 
   a = b;
   b = c;
