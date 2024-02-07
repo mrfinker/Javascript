@@ -98,7 +98,7 @@
 //   document.querySelector(".nameInput").value = "";
 //   document.querySelector(".dateInput").value = "";
 //   document.querySelector(".valueOntap").innerHTML = "";
-  
+
 //   renderList();
 
 // }
@@ -133,8 +133,8 @@
 // let valChange = nums[lastValue] = 99
 // console.log(nums);
 
-let firstArray = [1,20,22,24,5]
-let secArray = ['hi', 'hello', 'good']
+let firstArray = [1, 20, 22, 24, 5];
+let secArray = ["hi", "hello", "good"];
 
 // function getLastValue(array){
 //   let lastIndex = array.length - 1;
@@ -144,7 +144,7 @@ let secArray = ['hi', 'hello', 'good']
 // console.log(getLastValue(firstArray));
 // console.log(getLastValue(secArray));
 
-function arraySwap(array){
+function arraySwap(array) {
   let lastIndex = array.length - 1;
   let firstIndex = array[0];
   let a = array[firstIndex];
@@ -154,8 +154,9 @@ function arraySwap(array){
   a = b;
   b = c;
 
+  console.log(a);
+  console.log(b);
   return array;
-
 }
 
 console.log(arraySwap(firstArray));
