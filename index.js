@@ -145,8 +145,7 @@ let secArray = ["hi", "hello", "good"];
 // console.log(getLastValue(secArray));
 
 function arraySwap(array) {
-  let firstvalue = array[0];
-  return array[firstvalue];
+  return array[0];
 }
 
 console.log(arraySwap(firstArray));
