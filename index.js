@@ -133,7 +133,7 @@
 // let valChange = nums[lastValue] = 99
 // console.log(nums);
 
-let firstArray = [1, 20, 22, 24, 5];
+let firstArray = [1,5];
 let secArray = ["hi", "hello", "good"];
 
 // function getLastValue(array){
@@ -145,6 +145,11 @@ let secArray = ["hi", "hello", "good"];
 // console.log(getLastValue(secArray));
 
 function arraySwap(array) {
+  if (array.length < 2) {
+    console.log('rien a changer');
+    return array; 
+  }
+
   let last = array.length - 1;
   
   let c = array[last];
