@@ -134,10 +134,21 @@
 // console.log(nums);
 
 let firstArray = [1,20,22,24,5]
+let secArray = ['hi', 'hello', 'good']
 
-function getLastValue(array){
+// function getLastValue(array){
+//   let lastIndex = array.length - 1;
+//   return array[lastIndex];
+// }
+
+// console.log(getLastValue(firstArray));
+// console.log(getLastValue(secArray));
+
+function arraySwap(array){
   let lastIndex = array.length - 1;
-  return lastIndex;
+  let firstIndex = array[0];
+  
 }
 
-console.log(getLastValue(firstArray));
+console.log(arraySwap(firstArray));
+console.log(arraySwap(secArray));
