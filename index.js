@@ -133,8 +133,8 @@
 // let valChange = nums[lastValue] = 99
 // console.log(nums);
 
-let firstArray = [1,5];
-let secArray = ["hi", "hello", "good"];
+// let firstArray = [1,5];
+// let secArray = ["hi", "hello", "good"];
 
 // function getLastValue(array){
 //   let lastIndex = array.length - 1;
@@ -144,22 +144,26 @@ let secArray = ["hi", "hello", "good"];
 // console.log(getLastValue(firstArray));
 // console.log(getLastValue(secArray));
 
-function arraySwap(array) {
-  if (array.length < 2) {
-    console.log('rien a changer');
-    return array; 
-  }
+// function arraySwap(array) {
+//   if (array.length < 2) {
+//     console.log('rien a changer');
+//     return array; 
+//   }
 
-  let last = array.length - 1;
+//   let last = array.length - 1;
   
-  let c = array[last];
-  let b = array[0];
+//   let c = array[last];
+//   let b = array[0];
 
-  array[last] = b;
-  array[0] = c;
+//   array[last] = b;
+//   array[0] = c;
 
-  return array;
+//   return array;
+// }
+
+// console.log(arraySwap(firstArray));
+// console.log(arraySwap(secArray));
+
+for(let i = 0; i<=10; i+2){
+  console.log(i);
 }
-
-console.log(arraySwap(firstArray));
-console.log(arraySwap(secArray));
