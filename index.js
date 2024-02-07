@@ -146,10 +146,15 @@ let secArray = ["hi", "hello", "good"];
 
 function arraySwap(array) {
   let last = array.length - 1;
+  
   let c = array[last];
   let b = array[0];
   let a = c;
-  return ;
+
+  array[last] = b;
+  array[0] = a;
+  
+  return array;
 }
 
 console.log(arraySwap(firstArray));
