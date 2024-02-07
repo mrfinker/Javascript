@@ -73,60 +73,66 @@
 //   console.log(allValue);
 // }
 
-let userData = [];
-let nameUser;
-let date;
-let infoUser = {};
-let ListHMTL = '';
+// for(let i = 0; i <= 10; i+2){
+//   console.log(i);
+// }
 
-renderList();
+// let userData = [];
+// let nameUser;
+// let date;
+// let infoUser = {};
 
-function recupNameDate() {
-  nameUser = document.querySelector(".nameInput").value;
-  dateUser = document.querySelector(".dateInput").value;
-  if (nameUser.trim() !== "" && nameUser.length <= 10 && dateUser !== "") {
-    infoUser = { nom: nameUser, date: dateUser };
-    userData.push(infoUser);
-    alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
-  } else {
-    alert(
-      "Veuillez remplire tout les champs (* sans espace), texte trop long ou date manquante !"
-    );
-  }
+// function recupNameDate() {
+//   nameUser = document.querySelector(".nameInput").value;
+//   dateUser = document.querySelector(".dateInput").value;
+//   if (nameUser.trim() !== "" && nameUser.length <= 10 && dateUser !== "") {
+//     infoUser = { nom: nameUser, date: dateUser };
+//     userData.push(infoUser);
+//     // alert(`Nouvelle valeur : ${nameUser} et ${dateUser} a été ajouter !`)
+//   } else {
+//     alert(
+//       "Veuillez remplire tout les champs (* sans espace), texte trop long ou date manquante !"
+//     );
+//   }
 
-  document.querySelector(".nameInput").value = "";
-  document.querySelector(".dateInput").value = "";
-  document.querySelector(".valueOntap").innerHTML = "";
+//   document.querySelector(".nameInput").value = "";
+//   document.querySelector(".dateInput").value = "";
+//   document.querySelector(".valueOntap").innerHTML = "";
   
-  renderList();
+//   renderList();
 
-}
+// }
 
-function renderList(){
-  for (let i = 0; i < userData.length; i++) {
-    let Nomfinish = userData[i].nom;
-    let Datefinish = userData[i].date;
+// function renderList(){
+//   let ListHMTL = '';
+//   for (let i = 0; i < userData.length; i++) {
+//     let Nomfinish = userData[i].nom;
+//     let Datefinish = userData[i].date;
 
-    const html = `<div class="values"><p>${Nomfinish}</p><p>${Datefinish}</p></div>`;
+//     const html = `<div class="values"><p>${Nomfinish}</p><p>${Datefinish} 😄 </p></div>`;
 
-    ListHMTL += html;
-  }
-  document.querySelector('.allvalue').innerHTML = ListHMTL;
-}
+//     ListHMTL += html;
+//   }
+//   document.querySelector('.allvalue').innerHTML = ListHMTL;
+// }
 
-function handlePressEnter(event) {
-  if (event.key === "Enter") {
-    recupNameDate();
-  }
-}
+// function handlePressEnter(event) {
+//   if (event.key === "Enter") {
+//     recupNameDate();
+//   }
+// }
 
-function valueOntap() {
-  let nameTap = document.querySelector(".nameInput").value;
-  document.querySelector(".valueOntap").innerHTML = `${nameTap}`;
-}
+// function valueOntap() {
+//   let nameTap = document.querySelector(".nameInput").value;
+//   document.querySelector(".valueOntap").innerHTML = `${nameTap}`;
+// }
 
+// const nums = [10,20,30]
+// let lastValue = nums.length - 1
+// console.log(nums);
+// let valChange = nums[lastValue] = 99
+// console.log(nums);
 
-
-for(let i = 0; i <= 10; i+2){
-  console.log(i);
+function getLastValue(array){
+  
 }
