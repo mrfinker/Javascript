@@ -1,82 +1,4 @@
-// 11. Arrays and Loops
-// const myArray = [10, 25, 45, 55, 60];
-// console.log(myArray);
-// console.log(myArray[0]);
-// console.log(myArray[2]);
-// myArray[0] = 86;
-// console.log(myArray);
-// [10, 25, 45, 55, 60].forEach((value, index) =>
-//   console.log(`Value : ${value} , Index : ${index}`)
-// );
-
-// let myArray1 = [1, 'hello', true, { name: 'Caleb', age: 30 }, [1, 2, 3]];
-// console.log(typeof myArray1);
-// console.log(myArray1);
-// console.log(myArray1[3].name)
-
-// let ArraysOne = Array.isArray(myArray1);
-// console.log(ArraysOne);
-// console.log(myArray1.length);
-
-// myArray1.push('hello');
-// console.log(myArray1);
-// myArray1.unshift('hello');
-// console.log(myArray1);
-// myArray1.shift();
-// console.log(myArray1);
-// myArray1.pop();
-// console.log(myArray1);
-
-// myArray1.splice(1, 1);
-// console.log(myArray1);
-// myArray1.splice(1, 0, 'hello');
-// console.log(myArray1);
-// myArray1.splice(2, 1, 'hello');
-// console.log(myArray1);
-// myArray1.splice(2, 0, 'hello');
-// console.log(myArray1);
-// myArray1.splice(3, 1);
-// console.log(myArray1);
-// myArray1.splice(3, 0, 'hello');
-// console.log(myArray1);
-// myArray1.splice(0, 0, 'hello', 'hello');
-// console.log(myArray1);
-
-// let u = 1;
-// while (u <= 10) {
-//   console.log(u);
-//   u++;
-// }
-
-// for(let u = 1; u < 15; u++){
-//   console.log(u);
-// }
-
-// const nums = [5,6,7]
-// let total = 0;
-
-// for(let i = 0; i < nums.length; i++){
-//   total += nums[i];
-//   console.log(total);
-// }
-
-// const nums = [2,6,8];
-// let total = 0;
-// let allValue = [];
-
-// for(let i = 0; i < nums.length; i++){
-//   const num = nums[i];
-//   total += num;
-//   let sumValue = total;
-
-//   allValue.push(sumValue * 5);
-//   console.log(allValue);
-// }
-
-// for(let i = 0; i <= 10; i+2){
-//   console.log(i);
-// }
-
+// // arraysLoops part 2
 // let userData = [];
 // let nameUser;
 // let date;
@@ -109,7 +31,15 @@
 //     let Nomfinish = userData[i].nom;
 //     let Datefinish = userData[i].date;
 
-//     const html = `<div class="values"><p>${Nomfinish}</p><p>${Datefinish} 😄 </p></div>`;
+//     const html = `<div class="values">
+//     <p>${Nomfinish}</p>
+//     <p>${Datefinish}</p>
+//     <button 
+//     onclick="
+//     userData.splice(${i}, 1);
+//     renderList();
+//     ">Supprimer</button>
+//     </div>`;
 
 //     ListHMTL += html;
 //   }
@@ -127,43 +57,81 @@
 //   document.querySelector(".valueOntap").innerHTML = `${nameTap}`;
 // }
 
-// const nums = [10,20,30]
-// let lastValue = nums.length - 1
-// console.log(nums);
-// let valChange = nums[lastValue] = 99
-// console.log(nums);
+// const array1 = [1,2,3];
+// // const array2 = array1;
+// const array2 = array1.slice();
+// array2.push(4);
+// console.log(array1);
+// console.log(array2);
 
-// let firstArray = [1,5];
-// let secArray = ["hi", "hello", "good"];
+// const array3 = [1,2,3];
 
-// function getLastValue(array){
-//   let lastIndex = array.length - 1;
-//   return array[lastIndex];
-// }
+// arrays destructing
+// const [un, deux, troix] = [1,2,3]
 
-// console.log(getLastValue(firstArray));
-// console.log(getLastValue(secArray));
-
-// function arraySwap(array) {
-//   if (array.length < 2) {
-//     console.log('rien a changer');
-//     return array; 
+// break and continue
+// for(let i = 0; i<=10; i++){
+//   if(i===5){
+//     break;
 //   }
-
-//   let last = array.length - 1;
-  
-//   let c = array[last];
-//   let b = array[0];
-
-//   array[last] = b;
-//   array[0] = c;
-
-//   return array;
+//   console.log(i);
 // }
 
-// console.log(arraySwap(firstArray));
-// console.log(arraySwap(secArray));
+// for(let i = 0; i<=10; i++){
+//   if(i===5){
+//     continue;
+//   }
+//   console.log(i);
+// }
 
-for(let i = 0; i<=10; i+2){
-  console.log(i);
-}
+// Sauter les valuers divisibles par 3
+// for(let i = 0; i<=10; i++){
+//   if(i%3===0){
+//     continue;
+//   }
+//   console.log(i);
+// }
+
+// multiplie les valeurs et stop la function si il y a 0
+// function addNum(array, num){
+//     let tabval = [];
+//     for(let i = 0; i < array.length; i++){
+//       if(array[i] === 0){
+//         break;
+//       }
+
+//       tabval.push(array[i] * num);
+//     }
+//     array = tabval;
+  
+//     return array;
+//   }
+  
+//   console.log(addNum([1,2,5,6,0,8,4,5], 2));
+
+// function LoopsArray(array){
+//   for(let i = 0; i < array.length; i++){
+//     if(array.includes('search')){
+//       console.log(array.indexOf('search'));
+//       break;
+//     } else{
+//       console.log(-1);
+//     }
+//   }
+// }
+
+// console.log(LoopsArray(['hello', 'search', 'world', 'goodbye', 'search']));
+
+// function findIndex(array, word){
+//   console.log(word);
+//   for(let i = 0; i < array.length; i++){
+//     if(array.includes(word)){
+//       return array.indexOf(word);
+//     } else{
+//       return -1
+//     }
+//   }
+// }
+
+// console.log(findIndex(['hello', 'search', 'world', 'goodbye', 'search'], 'search'));
+
