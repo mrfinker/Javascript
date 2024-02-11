@@ -139,7 +139,7 @@ myfoods = ['egg', 'apple', 'egg', 'egg', 'ham'];
 
 function removeEgg(foods){
   let newval = [];
-  for(let i = 0; i < foods.lenght; i++){
+  for(let i = 0; i < foods.length; i++){
     foodsname = foods[i];
     if(foodsname !== 'egg'){
       newval.push(foodsname);
