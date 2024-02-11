@@ -144,10 +144,11 @@ function removeEgg(foods){
     if(foodsname !== 'egg'){
       newval.push(foodsname);
     } else {
+      foods.push('hey');
       continue;
     }
   }
-  return newval;
+  return foods;
 }
 
 console.log(removeEgg(myfoods));
