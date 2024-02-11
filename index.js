@@ -154,9 +154,11 @@ function removeEgg(foods){
   let newval = [];
   for(let i = 0; i < foods.length; i++){
     foodsname = foods[i];
+    if(foodsname === 'egg'){
+      newval.slice(foodsname, 2);
+    }
     newval.push(foodsname);
   }
-  newval.slice('egg', 2)
   return newval;
 }
 
