@@ -141,6 +141,9 @@ function removeEgg(foods){
     if(foods[i] == 'egg'){
       continue
     }
-    
+    newval.push(foods[i]);
   }
+  return newval;
 }
+
+removeEgg(['egg', 'apple', 'egg', 'egg', 'ham']);
