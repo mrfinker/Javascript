@@ -142,7 +142,7 @@ function removeEgg(foods){
   for(let i = 0; i < foods.lenght; i++){
     foodsname = foods[i];
     if(foodsname !== 'egg'){
-      newval.push(foods[i]);
+      newval.push(foodsname);
     } else {
       continue;
     }
