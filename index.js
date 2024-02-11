@@ -165,17 +165,18 @@ myfoods = ['egg', 'apple', 'egg', 'egg', 'ham'];
 // }
 
 function removeEgg(foods){
+  let reversedFoods = foods.slice().reverse();
   let count = 0;
   let newval = [];
-  for(let i = 0; i < foods.length; i++){
-    let foodsname = foods[i];
+  for(let i = 0; i < reversedFoods.length; i++){
+    let foodsname = reversedFoods[i];
     if(foodsname === 'egg' && count < 2){
       count++;
       continue;
     }
     newval.push(foodsname);
   }
-  return newval;
+  return newval.reverse();
 }
 
 console.log(removeEgg(myfoods));
