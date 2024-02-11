@@ -135,3 +135,8 @@
 
 // console.log(findIndex(['hello', 'search', 'world', 'goodbye', 'search'], 'search'));
 
+function removeEgg(foods){
+  for(let i = 0; i < foods.lenght; i++){
+    
+  }
+}
