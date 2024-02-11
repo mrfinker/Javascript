@@ -154,7 +154,7 @@ function removeEgg(foods){
   for(let i = 0; i < foods.length; i++){
     foodsname = foods[i];
     if(foodsname === 'egg'){
-      foods.slice(0, 2)
+      foods.slice(2, 1)
     }
   }
   return foods;
