@@ -135,15 +135,18 @@
 
 // console.log(findIndex(['hello', 'search', 'world', 'goodbye', 'search'], 'search'));
 
+myfoods = ['egg', 'apple', 'egg', 'egg', 'ham'];
+
 function removeEgg(foods){
+  let newval = [];
   for(let i = 0; i < foods.lenght; i++){
-    let newval = [];
-    if(foods[i] == 'egg'){
+    if(foods[i] === 'egg'){
       continue
+    } else{
+      newval.push(foods[i]);
     }
-    newval.push(foods[i]);
   }
-  return newval;
+  return foods;
 }
 
-removeEgg(['egg', 'apple', 'egg', 'egg', 'ham']);
+ removeEgg(myfoods);
