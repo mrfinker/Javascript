@@ -141,10 +141,10 @@ function removeEgg(foods){
   let newval = [];
   for(let i = 0; i < foods.lenght; i++){
     foodsname = foods[i];
-    if(foodsname === 'egg'){
-      continue;
-    } else {
+    if(foodsname !== 'egg'){
       newval.push(foods[i]);
+    } else {
+      continue;
     }
   }
   return newval;
