@@ -146,7 +146,7 @@ function removeEgg(foods){
       newval.push(foods[i]);
     }
   }
-  return foods;
+  return newval;
 }
 
- removeEgg(myfoods);
+console.log(removeEgg(myfoods));
