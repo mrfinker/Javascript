@@ -151,12 +151,13 @@ myfoods = ['egg', 'apple', 'egg', 'egg', 'ham'];
 // }
 
 function removeEgg(foods){
-  let newval = [];
   for(let i = 0; i < foods.length; i++){
     foodsname = foods[i];
-    newval.push(foodsname);
+    if(foodsname === 'egg'){
+      foods.slice(0, 2)
+    }
   }
-  return newval;
+  return foods;
 }
 
 console.log(removeEgg(myfoods));
