@@ -143,6 +143,7 @@ function removeEgg(foods){
     foodsname = foods[i];
     if(foodsname !== 'egg'){
       newval.push(foodsname);
+      console.log(newval);
     } else {
       continue;
     }
