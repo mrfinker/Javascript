@@ -146,7 +146,7 @@ function removeEgg(foods){
       newval.push(foods[i]);
     }
   }
-  return newval;
+  return foods;
 }
 
 console.log(removeEgg(myfoods));
