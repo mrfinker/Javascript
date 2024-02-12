@@ -188,6 +188,7 @@ for(let i = 1; i <= 20; i++){
     console.log('buzz');
   } else if(i%3 === 0 && i%5 === 0){
     console.log('fizzBuzz');
+  } else {
+    console.log(i);
   }
-  console.log(i);
 }
