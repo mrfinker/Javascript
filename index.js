@@ -71,10 +71,10 @@ setInterval(function(){
 
 let valueDoc = document.querySelector(".userValue");
 let randomValue = Math.round(Math.random() * 100);
-let valueUser;
 console.log(randomValue);
 
 function checkValue() {
+  let valueUser;
   let reponse;
   valueUser = valueDoc.value;
   if(valueUser === randomValue){
