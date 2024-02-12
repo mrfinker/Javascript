@@ -62,3 +62,8 @@ setTimeout(function(){
 }, 3000);
 
 console.log('next line');
+
+// setInterval
+setInterval(function(){
+  console.log('interval1');
+}, 3000);
