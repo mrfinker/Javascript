@@ -72,7 +72,9 @@ let randomValue;
 let level;
 let essaie;
 
-function levelBtn(level, essaie){
+function levelBtn(levelValue, essaieValue){
+  level = levelValue;
+  essaie = essaieValue;
   randomValue = Math.round(Math.random() * Number(level));
 }
 
