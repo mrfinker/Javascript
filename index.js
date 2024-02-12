@@ -71,10 +71,8 @@ setInterval(function(){
 
 let valueDoc = document.querySelector(".userValue");
 
-
 function levelBtn(level, essaie){
   let randomValue = Math.round(Math.random() * Number(level));
-  console.log(randomValue);
   return randomValue
 }
 
