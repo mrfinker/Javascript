@@ -53,8 +53,10 @@ run(function(){
   console.log('Appelle function dans une function en tant que parametre');
 }) */
 
-// setTimeout()
+// setTimeout() && Asynchronous code
 
 setTimeout(function(){
   console.log('timeout');
 }, 3000);
+
+console.log('next line');
