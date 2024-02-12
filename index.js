@@ -83,6 +83,9 @@ function checkValue() {
   let reponse;
 
   for(let i = 0; i<essaie; i++){
+    if(i === essaie){
+      alert('fin du test');
+    }
     if(valueUser == randomValue){
       reponse = 'identique';
       break
