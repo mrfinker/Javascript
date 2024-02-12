@@ -68,9 +68,9 @@ setInterval(function(){
   console.log('interval1');
 }, 3000);
 */
-let level;
+let level = 3;
 let valueDoc = document.querySelector(".userValue");
-let randomValue = Math.round(Math.random() * level);
+let randomValue = Math.round(Math.random() * Number(level));
 
 function checkValue() {
   let valueUser;
