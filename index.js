@@ -70,19 +70,19 @@ setInterval(function(){
 */
 
 let valueDoc = document.querySelector(".userValue");
-console.log(randomValue);
 let randomValue = Math.round(Math.random() * 100);
+let valueUser;
+console.log(randomValue);
 
 function checkValue() {
-  let valueUser;
   let reponse;
   valueUser = valueDoc.value;
   if(valueUser === randomValue){
-    reponse = console.log('Bravo');
+    reponse = 'Bravo';
   } else if(valueUser < randomValue){
-    reponse = console.log('inferieur');
+    reponse = 'inferieur';
   } else if(valueUser > randomValue){
-    reponse = console.log('superieur');
+    reponse = 'superieur';
   }
-  return reponse;
+  console.log(reponse);
 }
