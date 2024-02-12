@@ -75,16 +75,14 @@ let essaie;
 function levelBtn(level, essaie){
   randomValue = Math.round(Math.random() * Number(level));
   console.log(level);
+  console.log(essaie);
 }
 
 function checkValue() {
   let valueUser = document.querySelector(".userValue").value;
   let reponse;
 
-  // if(reponse === undefined){
-  //   alert('Veuillez choisir un niveau');
-  //   document.querySelector('.reponse').innerHTML = ``;
-  // }
+  
 
   for(let i = 0; i<essaie; i++){
     if(valueUser == randomValue){
@@ -98,3 +96,8 @@ function checkValue() {
     document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
   }
 }
+
+// if(reponse === undefined){
+  //   alert('Veuillez choisir un niveau');
+  //   document.querySelector('.reponse').innerHTML = ``;
+  // }
