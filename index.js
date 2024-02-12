@@ -54,7 +54,7 @@ run(function(){
 }) */
 
 // setTimeout() && Asynchronous code
-
+/*
 setTimeout(function(){
   // synchronous line by line
   console.log('timeout1');
@@ -67,3 +67,21 @@ console.log('next line');
 setInterval(function(){
   console.log('interval1');
 }, 3000);
+*/
+
+let valueDoc = document.querySelector(".userValue");
+let valueUser;
+let randomValue = Math.round(Math.random() * 100);
+console.log(randomValue);
+
+function checkValue() {
+  valueUser = valueDoc.value;
+  if(valueUser === randomValue){
+    console.log('Bravo');
+  } else if(valueUser < randomValue){
+    console.log('inferieur');
+  } else if(valueUser > randomValue){
+    console.log('superieur');
+  }
+  console.log(valueUser);
+}
