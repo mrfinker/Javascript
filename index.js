@@ -56,7 +56,9 @@ run(function(){
 // setTimeout() && Asynchronous code
 
 setTimeout(function(){
-  console.log('timeout');
+  // synchronous line by line
+  console.log('timeout1');
+  console.log('timeout2');
 }, 3000);
 
 console.log('next line');
