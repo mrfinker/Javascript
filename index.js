@@ -71,7 +71,6 @@ setInterval(function(){
 
 let valueDoc = document.querySelector(".userValue");
 let randomValue = Math.round(Math.random() * 100);
-console.log(randomValue);
 
 function checkValue() {
   let valueUser;
@@ -85,4 +84,5 @@ function checkValue() {
     reponse = 'superieur';
   }
   console.log(valueUser);
+  console.log(randomValue);
 }
