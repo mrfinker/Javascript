@@ -69,6 +69,8 @@ setInterval(function(){
 }, 3000);
 */
 let randomValue;
+let level;
+let essaie;
 
 function levelBtn(level, essaie){
   randomValue = Math.round(Math.random() * Number(level));
