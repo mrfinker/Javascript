@@ -68,9 +68,10 @@ setInterval(function(){
   console.log('interval1');
 }, 3000);
 */
+let randomValue;
 
 function levelBtn(level, essaie){
-  let randomValue = Math.round(Math.random() * Number(level));
+  randomValue = Math.round(Math.random() * Number(level));
 }
 
 function checkValue() {
@@ -83,9 +84,9 @@ function checkValue() {
   } else if(valueUser > randomValue){
     reponse = 'superieur';
   }
+  document.querySelector('.reponse') = reponse;
   console.log(valueUser);
   console.log(randomValue);
   console.log(level);
   console.log(essaie);
-  console.log(reponse);
 }
