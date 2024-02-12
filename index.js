@@ -72,7 +72,7 @@ setInterval(function(){
 let valueDoc = document.querySelector(".userValue");
 
 
-function levelBtn(){
+function levelBtn(level, essaie){
   let level;
   let randomValue = Math.round(Math.random() * Number(level));
 }
