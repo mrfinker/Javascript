@@ -69,17 +69,13 @@ setInterval(function(){
 }, 3000);
 */
 
-let valueDoc = document.querySelector(".userValue");
-
 function levelBtn(level, essaie){
   let randomValue = Math.round(Math.random() * Number(level));
-  return randomValue
 }
 
 function checkValue() {
-  let valueUser;
+  let valueUser = document.querySelector(".userValue").value;
   let reponse;
-  valueUser = valueDoc.value;
   if(valueUser == randomValue){
     reponse = 'Bravo';
   } else if(valueUser < randomValue){
