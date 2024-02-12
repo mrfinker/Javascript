@@ -74,6 +74,7 @@ let essaie;
 
 function levelBtn(level, essaie){
   randomValue = Math.round(Math.random() * Number(level));
+  console.log(level);
 }
 
 function checkValue() {
