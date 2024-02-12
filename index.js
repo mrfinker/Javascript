@@ -183,11 +183,11 @@
 
 for(let i = 1; i <= 20; i++){
   if(i%3 === 0){
-    i = 'fizz';
+    console.log('fizz');
   } else if(i%5 === 0){
-    i = 'buzz';
+    console.log('buzz');
   } else if(i%3 === 0 && i%5 === 0){
-    i = 'fizzbuzz';
+    console.log('fizzBuzz');
   }
   console.log(i);
 }
