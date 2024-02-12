@@ -90,6 +90,5 @@ function checkValue() {
   document.querySelector('.reponse').innerHTML = reponse;
   console.log(valueUser);
   console.log(randomValue);
-  console.log(level);
   console.log(essaie);
 }
