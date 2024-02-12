@@ -82,8 +82,6 @@ function checkValue() {
   let valueUser = document.querySelector(".userValue").value;
   let reponse;
 
-  
-
   for(let i = 0; i<essaie; i++){
     if(valueUser == randomValue){
       reponse = 'identique';
