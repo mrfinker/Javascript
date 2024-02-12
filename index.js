@@ -91,8 +91,8 @@ function checkValue() {
     } else if(valueUser > randomValue){
       reponse = 'superieur';
     }
-    document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
   }
+  document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
 }
 
 // if(reponse === undefined){
