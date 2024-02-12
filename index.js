@@ -83,9 +83,6 @@ function checkValue() {
   let reponse;
 
   for(let i = 0; i<essaie; i++){
-    if(i === essaie){
-      alert('fin du test');
-    }
     if(valueUser == randomValue){
       reponse = 'identique';
       break
@@ -94,6 +91,9 @@ function checkValue() {
     } else if(valueUser > randomValue){
       reponse = 'superieur';
     }
+  }
+  if(i === essaie){
+    alert('fin du test');
   }
   document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
 }
