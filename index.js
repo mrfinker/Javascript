@@ -1,5 +1,6 @@
 // 12. advanced functions
 
+/*
 function greeting(){
   console.log('hello');
 }
@@ -50,4 +51,10 @@ function run(param){
 
 run(function(){
   console.log('Appelle function dans une function en tant que parametre');
-})
+}) */
+
+// setTimeout()
+
+setTimeout(function(){
+  console.log('timeout');
+}, 3000);
