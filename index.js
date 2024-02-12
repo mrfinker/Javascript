@@ -81,13 +81,17 @@ function checkValue() {
   let valueUser = document.querySelector(".userValue").value;
   let reponse;
 
-  if(reponse === undefined){
-    alert('Veuillez choisir un niveau');
-    document.querySelector('.reponse').innerHTML = ``;
+  // if(reponse === undefined){
+  //   alert('Veuillez choisir un niveau');
+  //   document.querySelector('.reponse').innerHTML = ``;
+  // }
+
+  for(let i = 0; i<essaie; i++){
+    
   }
 
   if(valueUser == randomValue){
-    reponse = 'Bravo';
+    reponse = 'identique';
   } else if(valueUser < randomValue){
     reponse = 'inferieur';
   } else if(valueUser > randomValue){
