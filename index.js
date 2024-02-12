@@ -87,8 +87,7 @@ function checkValue() {
   } else if(valueUser > randomValue){
     reponse = 'superieur';
   }
-  document.querySelector('.reponse').innerHTML = reponse;
-  console.log(valueUser);
+  document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
   console.log(randomValue);
   console.log(essaie);
 }
