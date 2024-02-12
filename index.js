@@ -81,8 +81,9 @@ function levelBtn(levelValue, essaieValue){
 function checkValue() {
   let valueUser = document.querySelector(".userValue").value;
   let reponse;
+  let i;
 
-  for(let i = 0; i<essaie; i++){
+  for(i = 0; i<essaie; i++){
     if(valueUser == randomValue){
       reponse = 'identique';
       break
