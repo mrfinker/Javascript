@@ -86,5 +86,6 @@ function checkValue() {
   console.log(valueUser);
   console.log(randomValue);
   console.log(level);
+  console.log(essaie);
   console.log(reponse);
 }
