@@ -80,10 +80,11 @@ function levelBtn(level, essaie){
 function checkValue() {
   let valueUser = document.querySelector(".userValue").value;
   let reponse;
+  
   if(reponse === undefined){
     alert('Veuillez choisir un niveau');
   }
-  
+
   if(valueUser == randomValue){
     reponse = 'Bravo';
   } else if(valueUser < randomValue){
