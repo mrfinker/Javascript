@@ -68,7 +68,7 @@ setInterval(function(){
   console.log('interval1');
 }, 3000);
 */
-let level = 3;
+let level;
 let valueDoc = document.querySelector(".userValue");
 let randomValue = Math.round(Math.random() * Number(level));
 
