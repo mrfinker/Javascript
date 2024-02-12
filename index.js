@@ -84,5 +84,5 @@ function checkValue() {
   } else if(valueUser > randomValue){
     reponse = 'superieur';
   }
-  console.log(reponse);
+  console.log(valueUser);
 }
