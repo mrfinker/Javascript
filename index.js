@@ -87,17 +87,14 @@ function checkValue() {
   // }
 
   for(let i = 0; i<essaie; i++){
-    
+    if(valueUser == randomValue){
+      reponse = 'identique';
+      break
+    } else if(valueUser < randomValue){
+      reponse = 'inferieur';
+    } else if(valueUser > randomValue){
+      reponse = 'superieur';
+    }
+    document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
   }
-
-  if(valueUser == randomValue){
-    reponse = 'identique';
-  } else if(valueUser < randomValue){
-    reponse = 'inferieur';
-  } else if(valueUser > randomValue){
-    reponse = 'superieur';
-  }
-  document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
-  console.log(randomValue);
-  console.log(essaie);
 }
