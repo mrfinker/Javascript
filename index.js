@@ -65,5 +65,8 @@ console.log('next line');
 
 // setInterval
 setInterval(function(){
+  let i = 0;
+  i++
   console.log('interval1');
+  console.log(i);
 }, 3000);
