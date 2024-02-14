@@ -93,9 +93,11 @@ function checkValue() {
       reponse = 'superieur';
     }
   }
-  if(i === essaie){
-    alert('fin du test');
-  }
+  
+
+  // if(i === essaie){
+  //   alert('fin du test');
+  // }
   document.querySelector('.reponse').innerHTML = `votre reponse ${valueUser} est ${reponse} a la valeur attendus`;
 }
 
