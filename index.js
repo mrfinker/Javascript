@@ -93,7 +93,7 @@ function checkValue() {
       reponse = 'superieur';
     }
   }
-  
+
 
   // if(i === essaie){
   //   alert('fin du test');
@@ -105,3 +105,4 @@ function checkValue() {
   //   alert('Veuillez choisir un niveau');
   //   document.querySelector('.reponse').innerHTML = ``;
   // }
+  
