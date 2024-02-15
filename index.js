@@ -111,11 +111,11 @@ function checkValue() {
 let add;
 add = function(){
   console.log(2+3);
+  console.log(2+3);
 }
-add();
-add();
 
 let add2;
-add2 = function runTwice(fun){
-  
+function runTwice(fun){
+  console.log(fun);
 }
+runTwice(add);
