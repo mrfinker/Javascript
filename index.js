@@ -59,20 +59,28 @@ let tab3 = tab1.map((value, index) => {
 console.log(tab3);
 */
 
-let multiply = (a,b) => { return a*b }
+// let multiply = (a,b) => { return a*b }
 
-console.log(multiply(7,10));
+// console.log(multiply(7,10));
 
 let tab0 = [5,8,9,-5,6,9,-8]
 
-let countPositive = (nums) => {
-  let count = 0;
-  nums.forEach((value) => {
-    if(value >= 0){
-      count++;
-    }
+// let countPositive = (nums) => {
+//   let count = 0;
+//   nums.forEach((value) => {
+//     if(value >= 0){
+//       count++;
+//     }
+//   })
+//   return count;
+// }
+
+// console.log(countPositive(tab0));
+
+const addNum = (array, num) => {
+  array.map((value) => {
+    return value * num;
   })
-  return count;
 }
 
-console.log(countPositive(tab0));
+console.log(addNum(tab0, 2));
