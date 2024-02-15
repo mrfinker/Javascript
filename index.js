@@ -149,7 +149,11 @@ titleUp();
 
 let message = 2;
 setInterval(() => {
-  document.title = `(${message}) New messages`
+  if(message !== 0){
+    document.title = `(${message}) New messages`
+  } else {
+    document.title = `App`
+  }
 }, 1000);
 function increase(){
   message ++;
