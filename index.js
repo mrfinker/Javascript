@@ -134,3 +134,7 @@ function printMessage() {
     document.querySelector(".printMessageAddCart").innerHTML = "";
   }, 2000);
 }
+
+setInterval(() => {
+  document.title
+}, 1000);
