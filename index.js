@@ -135,6 +135,11 @@ function printMessage() {
   }, 2000);
 }
 
-setInterval(() => {
-  document.title
-}, 1000);
+function titleUp(){
+  setInterval(() => {
+    let i = 0;
+    document.title = `(${i++}) New messages`
+  }, 1000);
+}
+
+titleUp();
