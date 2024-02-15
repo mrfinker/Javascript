@@ -59,6 +59,14 @@ let tab3 = tab1.map((value, index) => {
 console.log(tab3);
 */
 
-let multiply = () => {
-  
+let multiply = (a,b) => { return a*b }
+
+console.log(multiply(7,10));
+
+let tab0 = [5,8,9,-5,6,9,-8]
+
+let countPositive = (nums) => {
+  nums.filter((value) => {
+    return value >= 0;
+  })
 }
