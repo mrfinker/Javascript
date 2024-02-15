@@ -90,6 +90,12 @@ const addNum = (arr, num) => {
 
 console.log(addNum(tab0, 5));
 
+let tabFoods = ['egg', 'apple', 'egg', 'egg', 'ham']
+
 const removeEgg = (foods) => {
-  
+  foods.filter((value) => {
+    return value !== 'egg';
+  })
 }
+
+console.log(removeEgg(tabFoods));
