@@ -121,5 +121,5 @@ function checkValue() {
 // runTwice(add);
 
 function changeTime(){
-  setTimeout(document.querySelector('.start').innerHTML = 'Finis !', 3000)
+  document.querySelector('.start').innerHTML = 'Finis !'
 }
