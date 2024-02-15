@@ -126,3 +126,10 @@ function myTime(){
     document.querySelector('.start').innerHTML = 'Finis !'
   }, 5000);
 }
+
+function printMessage(){
+  document.querySelector('.printMessageAddCart').innerHTML = 'Ajouter avec succes !'
+  setTimeout(() => {
+    document.querySelector('.printMessageAddCart').innerHTML = ''
+  }, 2000);
+}
