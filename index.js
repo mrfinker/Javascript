@@ -138,9 +138,8 @@ function printMessage() {
 // function titleUp(){
   setInterval(() => {
     let i = 0;
-    for(i; i < 50; i++){
+    i += 1;
       document.title = `(${i}) New messages`
-    }
   }, 1000);
 // }
 
