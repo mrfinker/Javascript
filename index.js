@@ -148,4 +148,10 @@ titleUp();
 */
 
 let message = 2;
-document.title = `(${message}) New messages`
+setInterval(() => {
+  document.title = `(${message}) New messages`
+}, 1000);
+function increase(){
+  message ++;
+  console.log(message);
+}
