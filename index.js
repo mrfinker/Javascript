@@ -37,7 +37,16 @@ btnClick.addEventListener("click", () => {
   console.log("hey2");
 });
 
-let tab1 = [1,5,8,9,6,2,6]
+let tab1 = [1,5,8,9,6,2,6,-5,-8,15,-9,-1]
 tab1.forEach((value, index) => {
   console.log(`${index} : ${value}`);
 });
+
+let tab2 = tab1.filter((value, index) => {
+  if(value >= 0){
+    return true
+  } else {
+    return false
+  }
+});
+console.log(tab2);
