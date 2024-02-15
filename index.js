@@ -24,6 +24,7 @@ const obj1 = {
 }
 */
 
+/*
 const valueMes = () => {
   console.log("hey");
 }
@@ -56,3 +57,8 @@ let tab3 = tab1.map((value, index) => {
   return value * 2;
 })
 console.log(tab3);
+*/
+
+const multiply = () => {
+
+}
