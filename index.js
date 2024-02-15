@@ -68,6 +68,7 @@ setInterval(function(){
   console.log('interval1');
 }, 3000);
 */
+/*
 let randomValue;
 let level;
 let essaie;
@@ -105,4 +106,11 @@ function checkValue() {
   //   alert('Veuillez choisir un niveau');
   //   document.querySelector('.reponse').innerHTML = ``;
   // }
-  
+*/
+
+let add;
+add = function(){
+  console.log(2+3);
+}
+add();
+add();
