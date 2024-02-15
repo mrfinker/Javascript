@@ -120,16 +120,17 @@ function checkValue() {
 // }
 // runTwice(add);
 
-function myTime(){
-    document.querySelector('.start').innerHTML = 'Loading...'
-  setTimeout(function(){
-    document.querySelector('.start').innerHTML = 'Finis !'
+function myTime() {
+  document.querySelector(".start").innerHTML = "Loading...";
+  setTimeout(function () {
+    document.querySelector(".start").innerHTML = "Finis !";
   }, 5000);
 }
 
-function printMessage(){
-  document.querySelector('.printMessageAddCart').innerHTML = 'Ajouter avec succes !'
+function printMessage() {
+  document.querySelector(".printMessageAddCart").innerHTML =
+    "Ajouter avec succes !";
   setTimeout(() => {
-    document.querySelector('.printMessageAddCart').innerHTML = ''
+    document.querySelector(".printMessageAddCart").innerHTML = "";
   }, 2000);
 }
