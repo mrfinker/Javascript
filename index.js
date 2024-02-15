@@ -120,6 +120,7 @@ function checkValue() {
 // }
 // runTwice(add);
 
+/*
 function myTime() {
   document.querySelector(".start").innerHTML = "Loading...";
   setTimeout(function () {
@@ -136,11 +137,13 @@ function printMessage() {
 }
 
 function titleUp(){
+  let i = 0;
   setInterval(() => {
-    let i = 0;
     document.title = `(${i}) New messages`
     i += 1;
   }, 1000);
 }
 
 titleUp();
+*/
+
