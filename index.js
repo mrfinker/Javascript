@@ -53,5 +53,5 @@ let tab2 = tab1.filter((value) => {
 console.log(tab2);
 
 tab1.map((value, index) => {
-  
+  return value * 2;
 })
