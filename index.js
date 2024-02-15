@@ -24,11 +24,15 @@ const obj1 = {
 }
 */
 
+const valueMes = () => {
+  console.log("hey");
+}
+
 const btnClick = document.querySelector(".printMessage");
+
+btnClick.addEventListener("click", valueMes);
+btnClick.removeEventListener('click', valueMes);
+
 btnClick.addEventListener("click", () => {
-  console.log("hey");
-});
-btnClick.removeEventListener('click', );
-btnClick.addEventListener("click", () => {
-  console.log("hey");
+  console.log("hey2");
 });
