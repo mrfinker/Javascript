@@ -94,8 +94,7 @@ let tabFoods = ['egg', 'apple', 'egg', 'egg', 'ham']
 
 const removeEgg = (foods) => {
   const val = foods.filter((value) => {
-    // return value !== 'egg';
-    return value.slice(5, 'egg');
+    return value !== 'egg';
   })
   return val
 }
