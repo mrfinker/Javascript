@@ -135,12 +135,12 @@ function printMessage() {
   }, 2000);
 }
 
-// function titleUp(){
+function titleUp(){
   setInterval(() => {
     let i = 0;
+    document.title = `(${i}) New messages`
     i += 1;
-      document.title = `(${i}) New messages`
   }, 1000);
-// }
+}
 
 titleUp();
