@@ -89,3 +89,7 @@ const addNum = (arr, num) => {
 // })
 
 console.log(addNum(tab0, 5));
+
+const removeEgg = (foods) => {
+  
+}
