@@ -78,9 +78,13 @@ let tab0 = [5,8,9,-5,6,9,-8]
 // console.log(countPositive(tab0));
 
 const addNum = (arr) => {
-  let tab = arr.map((value) => {
+  arr.map((value) => {
     return value + 1;
   })
 }
 
-console.log(addNum(tab0));
+let tabi = tab0.map((value) => {
+  return value * num
+})
+
+console.log(tabi);
