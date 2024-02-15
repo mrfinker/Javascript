@@ -77,10 +77,10 @@ let tab0 = [5,8,9,-5,6,9,-8]
 
 // console.log(countPositive(tab0));
 
-const addNum = (array, num) => {
-  array.map((value) => {
-    return value;
+const addNum = (arr) => {
+  arr.map((value) => {
+    return value + 1;
   })
 }
 
-console.log(addNum(tab0, 2));
+console.log(addNum(tab0));
