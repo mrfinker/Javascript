@@ -114,3 +114,8 @@ add = function(){
 }
 add();
 add();
+
+let add2;
+add2 = function runTwice(fun){
+  
+}
