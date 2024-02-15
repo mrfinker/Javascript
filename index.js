@@ -153,5 +153,8 @@ setInterval(() => {
 }, 1000);
 function increase(){
   message ++;
-  console.log(message);
+}
+
+function decrease(){
+  message--;
 }
