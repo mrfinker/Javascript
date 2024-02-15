@@ -23,3 +23,8 @@ const obj1 = {
   }
 }
 */
+
+const btnClick = document.querySelector(".printMessage");
+btnClick.addEventListener("click", () => {
+  console.log("hey");
+});
