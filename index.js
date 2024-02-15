@@ -121,6 +121,7 @@ function checkValue() {
 // runTwice(add);
 
 function myTime(){
+    document.querySelector('.start').innerHTML = 'Loading...'
   setTimeout(function(){
     document.querySelector('.start').innerHTML = 'Finis !'
   }, 5000);
