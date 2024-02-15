@@ -36,3 +36,8 @@ btnClick.removeEventListener('click', valueMes);
 btnClick.addEventListener("click", () => {
   console.log("hey2");
 });
+
+let tab1 = [1,5,8,9,6,2,6]
+tab1.forEach((value, index) => {
+  console.log(`${index} : ${value}`);
+});
