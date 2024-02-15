@@ -120,6 +120,8 @@ function checkValue() {
 // }
 // runTwice(add);
 
-function changeTime(){
-  document.querySelector('.start').innerHTML = 'Finis !'
+function myTime(){
+  setTimeout(function(){
+    document.querySelector('.start').innerHTML = 'Finis !'
+  }, 5000);
 }
