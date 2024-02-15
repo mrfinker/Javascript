@@ -42,11 +42,16 @@ tab1.forEach((value, index) => {
   console.log(`${index} : ${value}`);
 });
 
-let tab2 = tab1.filter((value, index) => {
-  if(value >= 0){
-    return true
-  } else {
-    return false
-  }
+let tab2 = tab1.filter((value) => {
+  // if(value >= 0){
+  //   return true
+  // } else {
+  //   return false
+  // }
+  return value >= 0;
 });
 console.log(tab2);
+
+tab1.map((value, index) => {
+  
+})
