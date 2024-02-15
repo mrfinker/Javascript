@@ -79,7 +79,7 @@ let tab0 = [5,8,9,-5,6,9,-8]
 
 const addNum = (array, num) => {
   array.map((value) => {
-    return value * num;
+    return value;
   })
 }
 
