@@ -108,14 +108,18 @@ function checkValue() {
   // }
 */
 
-let add;
-add = function(){
-  console.log(2+3);
-  console.log(2+3);
-}
+// let add;
+// add = function(){
+//   console.log(2+3);
+//   console.log(2+3);
+// }
 
-let add2;
-function runTwice(fun){
-  console.log(fun);
+// let add2;
+// function runTwice(fun){
+//   console.log(fun);
+// }
+// runTwice(add);
+
+function changeTime(){
+  setTimeout(document.querySelector('.start').innerHTML = 'Finis !', 3000)
 }
-runTwice(add);
