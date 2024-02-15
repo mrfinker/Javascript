@@ -66,9 +66,13 @@ console.log(multiply(7,10));
 let tab0 = [5,8,9,-5,6,9,-8]
 
 let countPositive = (nums) => {
+  let count = 0;
   nums.forEach((value) => {
-    return value >= 0;
+    if(value >= 0){
+      count++;
+    }
   })
+  return count;
 }
 
 console.log(countPositive(tab0));
