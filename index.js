@@ -147,3 +147,5 @@ function titleUp(){
 titleUp();
 */
 
+let message = 2;
+document.title = `(${message}) New messages`
