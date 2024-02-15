@@ -84,8 +84,8 @@ const addNum = (arr, num) => {
   return val;
 }
 
-let tabi = tab0.map((value) => {
-  return value * num
-})
+// let tabi = tab0.map((value) => {
+//   return value * num
+// })
 
 console.log(addNum(tab0, 5));
