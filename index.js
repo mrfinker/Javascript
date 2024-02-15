@@ -59,6 +59,3 @@ let tab3 = tab1.map((value, index) => {
 console.log(tab3);
 */
 
-const multiply = () => {
-
-}
