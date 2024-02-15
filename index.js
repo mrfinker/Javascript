@@ -28,3 +28,7 @@ const btnClick = document.querySelector(".printMessage");
 btnClick.addEventListener("click", () => {
   console.log("hey");
 });
+btnClick.removeEventListener('click', );
+btnClick.addEventListener("click", () => {
+  console.log("hey");
+});
