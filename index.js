@@ -101,3 +101,4 @@ const removeEgg = (foods) => {
 
 console.log(removeEgg(tabFoods));
 
+
